@@ -7,7 +7,7 @@ import { Alert } from 'react-native';
 import * as Notifications from 'expo-notifications';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const SOCKET_URL = 'http://10.124.150.60:5000';
+const SOCKET_URL = 'https://kidsafe-location-tracker.onrender.com';
 
 class SocketService {
   socket = null;

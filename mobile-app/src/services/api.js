@@ -1,7 +1,7 @@
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const API_URL = 'http://10.124.150.60:5000/api'; // Host IP loopback override
+const API_URL = 'https://kidsafe-location-tracker.onrender.com/api'; // Render Cloud URL
 
 const apiClient = axios.create({
   baseURL: API_URL,
