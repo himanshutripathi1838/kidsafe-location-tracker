@@ -103,7 +103,6 @@ io.on('connection', (socket) => {
 // 4. Background Node Cron Scheduler
 // 24/7 Cloud Keep-Alive Self Ping (Prevents Render Free Tier from sleeping)
 const https = require('https');
-const http = require('http');
 cron.schedule('*/10 * * * *', () => {
   const cloudUrl = process.env.RENDER_EXTERNAL_URL || 'https://kidsafe-location-tracker.onrender.com';
   console.log(`Keep-Alive Cron: Pinging cloud server at ${cloudUrl}...`);
