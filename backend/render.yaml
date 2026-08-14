@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: kidsafe-location-backend
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: MQTT_BROKER_URL
+        value: mqtt://103.73.191.240:1883

@@ -1,0 +1,7162 @@
+[
+  {
+    "latitude": 23.215773,
+    "longitude": 77.396287,
+    "speed": 4.91,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:43:19.000Z"
+  },
+  {
+    "latitude": 23.216913,
+    "longitude": 77.396662,
+    "speed": 2.01,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:43:29.000Z"
+  },
+  {
+    "latitude": 23.216789,
+    "longitude": 77.397145,
+    "speed": 4.16,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:43:39.000Z"
+  },
+  {
+    "latitude": 23.216309,
+    "longitude": 77.396974,
+    "speed": 3.56,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:43:49.000Z"
+  },
+  {
+    "latitude": 23.216156,
+    "longitude": 77.396664,
+    "speed": 2.05,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:43:59.000Z"
+  },
+  {
+    "latitude": 23.216762,
+    "longitude": 77.397164,
+    "speed": 0.64,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:44:09.000Z"
+  },
+  {
+    "latitude": 23.216724,
+    "longitude": 77.395893,
+    "speed": 4.05,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:44:19.000Z"
+  },
+  {
+    "latitude": 23.21669,
+    "longitude": 77.395922,
+    "speed": 2.58,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:44:29.000Z"
+  },
+  {
+    "latitude": 23.216201,
+    "longitude": 77.395554,
+    "speed": 0.96,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:44:39.000Z"
+  },
+  {
+    "latitude": 23.216782,
+    "longitude": 77.396125,
+    "speed": 0.46,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:44:49.000Z"
+  },
+  {
+    "latitude": 23.216244,
+    "longitude": 77.396031,
+    "speed": 4.29,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:44:59.000Z"
+  },
+  {
+    "latitude": 23.21668,
+    "longitude": 77.397416,
+    "speed": 4.89,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:45:09.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:15:02.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 0,
+    "satellites": 0,
+    "timestamp": "2026-08-13T01:15:02.000Z"
+  },
+  {
+    "latitude": 23.217064,
+    "longitude": 77.396136,
+    "speed": 4.66,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:45:29.000Z"
+  },
+  {
+    "latitude": 23.217519,
+    "longitude": 77.396008,
+    "speed": 3.1,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:45:39.000Z"
+  },
+  {
+    "latitude": 23.215941,
+    "longitude": 77.396099,
+    "speed": 3.65,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:45:49.000Z"
+  },
+  {
+    "latitude": 23.217409,
+    "longitude": 77.396437,
+    "speed": 0.95,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:45:59.000Z"
+  },
+  {
+    "latitude": 23.216065,
+    "longitude": 77.396639,
+    "speed": 3.42,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:46:09.000Z"
+  },
+  {
+    "latitude": 23.21691,
+    "longitude": 77.396176,
+    "speed": 3.91,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:46:19.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:16:19.000Z"
+  },
+  {
+    "latitude": 23.215846,
+    "longitude": 77.397412,
+    "speed": 0.2,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:46:29.000Z"
+  },
+  {
+    "latitude": 23.217289,
+    "longitude": 77.395918,
+    "speed": 4.95,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:46:39.000Z"
+  },
+  {
+    "latitude": 23.215841,
+    "longitude": 77.397017,
+    "speed": 3.41,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:46:49.000Z"
+  },
+  {
+    "latitude": 23.216196,
+    "longitude": 77.396165,
+    "speed": 1.12,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:46:59.000Z"
+  },
+  {
+    "latitude": 23.215791,
+    "longitude": 77.396088,
+    "speed": 2.23,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:47:09.000Z"
+  },
+  {
+    "latitude": 23.216395,
+    "longitude": 77.397256,
+    "speed": 2.75,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:47:19.000Z"
+  },
+  {
+    "latitude": 23.216737,
+    "longitude": 77.397403,
+    "speed": 2.05,
+    "battery": 79,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:51:59.000Z"
+  },
+  {
+    "latitude": 23.216101,
+    "longitude": 77.395805,
+    "speed": 2.58,
+    "battery": 78,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:52:09.000Z"
+  },
+  {
+    "latitude": 23.217607,
+    "longitude": 77.39555,
+    "speed": 0.31,
+    "battery": 77,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:52:19.000Z"
+  },
+  {
+    "latitude": 23.216241,
+    "longitude": 77.395866,
+    "speed": 3.32,
+    "battery": 76,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:52:29.000Z"
+  },
+  {
+    "latitude": 23.216652,
+    "longitude": 77.396906,
+    "speed": 1.67,
+    "battery": 75,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:52:39.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:22:37.000Z"
+  },
+  {
+    "latitude": 23.216561,
+    "longitude": 77.396366,
+    "speed": 0.05,
+    "battery": 74,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:52:49.000Z"
+  },
+  {
+    "latitude": 23.217071,
+    "longitude": 77.396834,
+    "speed": 1.31,
+    "battery": 73,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:52:59.000Z"
+  },
+  {
+    "latitude": 23.216265,
+    "longitude": 77.396981,
+    "speed": 2.71,
+    "battery": 72,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:53:09.000Z"
+  },
+  {
+    "latitude": 23.216086,
+    "longitude": 77.397042,
+    "speed": 0.01,
+    "battery": 71,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:53:19.000Z"
+  },
+  {
+    "latitude": 23.215949,
+    "longitude": 77.397337,
+    "speed": 0.62,
+    "battery": 70,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:53:29.000Z"
+  },
+  {
+    "latitude": 23.217051,
+    "longitude": 77.396726,
+    "speed": 2.06,
+    "battery": 69,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:53:39.000Z"
+  },
+  {
+    "latitude": 23.216469,
+    "longitude": 77.396819,
+    "speed": 3.99,
+    "battery": 68,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:53:49.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:23:45.000Z"
+  },
+  {
+    "latitude": 23.216843,
+    "longitude": 77.395925,
+    "speed": 2.16,
+    "battery": 67,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:53:59.000Z"
+  },
+  {
+    "latitude": 23.216889,
+    "longitude": 77.39557,
+    "speed": 3.5,
+    "battery": 66,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:54:09.000Z"
+  },
+  {
+    "latitude": 23.216769,
+    "longitude": 77.396449,
+    "speed": 1.37,
+    "battery": 65,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:54:19.000Z"
+  },
+  {
+    "latitude": 23.217257,
+    "longitude": 77.396233,
+    "speed": 1.63,
+    "battery": 64,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:54:29.000Z"
+  },
+  {
+    "latitude": 23.215808,
+    "longitude": 77.397471,
+    "speed": 1.36,
+    "battery": 63,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:54:39.000Z"
+  },
+  {
+    "latitude": 23.216683,
+    "longitude": 77.396626,
+    "speed": 4.2,
+    "battery": 62,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:54:49.000Z"
+  },
+  {
+    "latitude": 23.21733,
+    "longitude": 77.396495,
+    "speed": 2.49,
+    "battery": 61,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:54:59.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:24:54.000Z"
+  },
+  {
+    "latitude": 23.217467,
+    "longitude": 77.395559,
+    "speed": 2.93,
+    "battery": 60,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:55:09.000Z"
+  },
+  {
+    "latitude": 23.217713,
+    "longitude": 77.3961,
+    "speed": 1.52,
+    "battery": 59,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:55:19.000Z"
+  },
+  {
+    "latitude": 23.216851,
+    "longitude": 77.395719,
+    "speed": 3.95,
+    "battery": 58,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:55:29.000Z"
+  },
+  {
+    "latitude": 23.217253,
+    "longitude": 77.396104,
+    "speed": 4.03,
+    "battery": 57,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:55:39.000Z"
+  },
+  {
+    "latitude": 23.217723,
+    "longitude": 77.397407,
+    "speed": 1.93,
+    "battery": 56,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:55:49.000Z"
+  },
+  {
+    "latitude": 23.216821,
+    "longitude": 77.396725,
+    "speed": 0.69,
+    "battery": 55,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:55:59.000Z"
+  },
+  {
+    "latitude": 23.216555,
+    "longitude": 77.396935,
+    "speed": 3.28,
+    "battery": 54,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:56:09.000Z"
+  },
+  {
+    "latitude": 23.217188,
+    "longitude": 77.397376,
+    "speed": 0.46,
+    "battery": 53,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:56:19.000Z"
+  },
+  {
+    "latitude": 23.216246,
+    "longitude": 77.396212,
+    "speed": 2.4,
+    "battery": 52,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:56:29.000Z"
+  },
+  {
+    "latitude": 23.216227,
+    "longitude": 77.395963,
+    "speed": 1.26,
+    "battery": 51,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:56:39.000Z"
+  },
+  {
+    "latitude": 23.216232,
+    "longitude": 77.396186,
+    "speed": 0.56,
+    "battery": 50,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:56:49.000Z"
+  },
+  {
+    "latitude": 23.216295,
+    "longitude": 77.396112,
+    "speed": 0.46,
+    "battery": 49,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:56:59.000Z"
+  },
+  {
+    "latitude": 23.216527,
+    "longitude": 77.395707,
+    "speed": 0.75,
+    "battery": 48,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:57:09.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:27:11.000Z"
+  },
+  {
+    "latitude": 23.217398,
+    "longitude": 77.395951,
+    "speed": 4.43,
+    "battery": 46,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:57:29.000Z"
+  },
+  {
+    "latitude": 23.217709,
+    "longitude": 77.397045,
+    "speed": 2.34,
+    "battery": 45,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:57:39.000Z"
+  },
+  {
+    "latitude": 23.216964,
+    "longitude": 77.395766,
+    "speed": 4.32,
+    "battery": 44,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:57:49.000Z"
+  },
+  {
+    "latitude": 23.217014,
+    "longitude": 77.396321,
+    "speed": 1.27,
+    "battery": 43,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:57:59.000Z"
+  },
+  {
+    "latitude": 23.216603,
+    "longitude": 77.396071,
+    "speed": 2.35,
+    "battery": 42,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:58:09.000Z"
+  },
+  {
+    "latitude": 23.217263,
+    "longitude": 77.397315,
+    "speed": 3.38,
+    "battery": 41,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:58:19.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:28:20.000Z"
+  },
+  {
+    "latitude": 23.216134,
+    "longitude": 77.39678,
+    "speed": 2.69,
+    "battery": 39,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:58:39.000Z"
+  },
+  {
+    "latitude": 23.216893,
+    "longitude": 77.397293,
+    "speed": 4.21,
+    "battery": 38,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:58:49.000Z"
+  },
+  {
+    "latitude": 23.215768,
+    "longitude": 77.395832,
+    "speed": 4.03,
+    "battery": 37,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:58:59.000Z"
+  },
+  {
+    "latitude": 23.216442,
+    "longitude": 77.396978,
+    "speed": 1.71,
+    "battery": 36,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:59:09.000Z"
+  },
+  {
+    "latitude": 23.216465,
+    "longitude": 77.396879,
+    "speed": 0.66,
+    "battery": 35,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:59:19.000Z"
+  },
+  {
+    "latitude": 23.217498,
+    "longitude": 77.397102,
+    "speed": 1.05,
+    "battery": 34,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:59:29.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:29:29.000Z"
+  },
+  {
+    "latitude": 23.217504,
+    "longitude": 77.397076,
+    "speed": 2.96,
+    "battery": 33,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:59:39.000Z"
+  },
+  {
+    "latitude": 23.216105,
+    "longitude": 77.396619,
+    "speed": 0.04,
+    "battery": 32,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:59:49.000Z"
+  },
+  {
+    "latitude": 23.216543,
+    "longitude": 77.396654,
+    "speed": 2.26,
+    "battery": 31,
+    "satellites": 8,
+    "timestamp": "2026-08-13T06:59:59.000Z"
+  },
+  {
+    "latitude": 23.21678,
+    "longitude": 77.396489,
+    "speed": 4.73,
+    "battery": 30,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:00:09.000Z"
+  },
+  {
+    "latitude": 23.217537,
+    "longitude": 77.396419,
+    "speed": 3.76,
+    "battery": 29,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:00:19.000Z"
+  },
+  {
+    "latitude": 23.215733,
+    "longitude": 77.397399,
+    "speed": 3.68,
+    "battery": 28,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:00:29.000Z"
+  },
+  {
+    "latitude": 23.217479,
+    "longitude": 77.396023,
+    "speed": 2.25,
+    "battery": 27,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:00:39.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:30:38.000Z"
+  },
+  {
+    "latitude": 23.21746,
+    "longitude": 77.396763,
+    "speed": 2.92,
+    "battery": 26,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:00:49.000Z"
+  },
+  {
+    "latitude": 23.217719,
+    "longitude": 77.396222,
+    "speed": 2.64,
+    "battery": 25,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:00:59.000Z"
+  },
+  {
+    "latitude": 23.216247,
+    "longitude": 77.396256,
+    "speed": 4.88,
+    "battery": 24,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:01:09.000Z"
+  },
+  {
+    "latitude": 23.216474,
+    "longitude": 77.397367,
+    "speed": 3.57,
+    "battery": 23,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:01:19.000Z"
+  },
+  {
+    "latitude": 23.217225,
+    "longitude": 77.396814,
+    "speed": 3.98,
+    "battery": 22,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:01:29.000Z"
+  },
+  {
+    "latitude": 23.217295,
+    "longitude": 77.39604,
+    "speed": 3.05,
+    "battery": 21,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:01:39.000Z"
+  },
+  {
+    "latitude": 23.217605,
+    "longitude": 77.395778,
+    "speed": 4.9,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:01:49.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:31:47.000Z"
+  },
+  {
+    "latitude": 23.216639,
+    "longitude": 77.395958,
+    "speed": 3.49,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:01:59.000Z"
+  },
+  {
+    "latitude": 23.21606,
+    "longitude": 77.395814,
+    "speed": 3.34,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:02:09.000Z"
+  },
+  {
+    "latitude": 23.216745,
+    "longitude": 77.397137,
+    "speed": 2.36,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:03:09.000Z"
+  },
+  {
+    "latitude": 23.217065,
+    "longitude": 77.396384,
+    "speed": 4.76,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:03:19.000Z"
+  },
+  {
+    "latitude": 23.217413,
+    "longitude": 77.397481,
+    "speed": 3.46,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:03:29.000Z"
+  },
+  {
+    "latitude": 23.217041,
+    "longitude": 77.39559,
+    "speed": 1.14,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:03:39.000Z"
+  },
+  {
+    "latitude": 23.217483,
+    "longitude": 77.39622,
+    "speed": 3.65,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:03:49.000Z"
+  },
+  {
+    "latitude": 23.217443,
+    "longitude": 77.396661,
+    "speed": 4.65,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:03:59.000Z"
+  },
+  {
+    "latitude": 23.217487,
+    "longitude": 77.396468,
+    "speed": 1.76,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:04:09.000Z"
+  },
+  {
+    "latitude": 23.216073,
+    "longitude": 77.39641,
+    "speed": 1.05,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:04:19.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:34:12.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 0,
+    "satellites": 0,
+    "timestamp": "2026-08-13T01:34:12.000Z"
+  },
+  {
+    "latitude": 23.217232,
+    "longitude": 77.397238,
+    "speed": 2.7,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:04:29.000Z"
+  },
+  {
+    "latitude": 23.217087,
+    "longitude": 77.397287,
+    "speed": 1.25,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:04:39.000Z"
+  },
+  {
+    "latitude": 23.21579,
+    "longitude": 77.396818,
+    "speed": 4.83,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:04:49.000Z"
+  },
+  {
+    "latitude": 23.216052,
+    "longitude": 77.396364,
+    "speed": 0.85,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:04:59.000Z"
+  },
+  {
+    "latitude": 23.216182,
+    "longitude": 77.395585,
+    "speed": 4.62,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:05:09.000Z"
+  },
+  {
+    "latitude": 23.21729,
+    "longitude": 77.39554,
+    "speed": 1.73,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:05:19.000Z"
+  },
+  {
+    "latitude": 23.217156,
+    "longitude": 77.397386,
+    "speed": 3.54,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:05:29.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:35:28.000Z"
+  },
+  {
+    "latitude": 23.217032,
+    "longitude": 77.396817,
+    "speed": 0.13,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:05:39.000Z"
+  },
+  {
+    "latitude": 23.216295,
+    "longitude": 77.397066,
+    "speed": 1.84,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:05:49.000Z"
+  },
+  {
+    "latitude": 23.216512,
+    "longitude": 77.397033,
+    "speed": 2.05,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:05:59.000Z"
+  },
+  {
+    "latitude": 23.217645,
+    "longitude": 77.396153,
+    "speed": 0.34,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:06:09.000Z"
+  },
+  {
+    "latitude": 23.216639,
+    "longitude": 77.395594,
+    "speed": 4.35,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:06:19.000Z"
+  },
+  {
+    "latitude": 23.217388,
+    "longitude": 77.396522,
+    "speed": 1.98,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:06:29.000Z"
+  },
+  {
+    "latitude": 23.216426,
+    "longitude": 77.396662,
+    "speed": 3.15,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:06:39.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:36:37.000Z"
+  },
+  {
+    "latitude": 23.215889,
+    "longitude": 77.396185,
+    "speed": 4.12,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:06:49.000Z"
+  },
+  {
+    "latitude": 23.217461,
+    "longitude": 77.39561,
+    "speed": 3.03,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:06:59.000Z"
+  },
+  {
+    "latitude": 23.216122,
+    "longitude": 77.396791,
+    "speed": 2.9,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:07:09.000Z"
+  },
+  {
+    "latitude": 23.217138,
+    "longitude": 77.397044,
+    "speed": 3.69,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:07:20.000Z"
+  },
+  {
+    "latitude": 23.217014,
+    "longitude": 77.396611,
+    "speed": 2.65,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:07:30.000Z"
+  },
+  {
+    "latitude": 23.215794,
+    "longitude": 77.39669,
+    "speed": 4.04,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:07:40.000Z"
+  },
+  {
+    "latitude": 23.21668,
+    "longitude": 77.39603,
+    "speed": 4.21,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:07:50.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:37:46.000Z"
+  },
+  {
+    "latitude": 23.217607,
+    "longitude": 77.396747,
+    "speed": 4.66,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:08:00.000Z"
+  },
+  {
+    "latitude": 23.216271,
+    "longitude": 77.397374,
+    "speed": 1.63,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:08:10.000Z"
+  },
+  {
+    "latitude": 23.21729,
+    "longitude": 77.397061,
+    "speed": 2.82,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:08:20.000Z"
+  },
+  {
+    "latitude": 23.215997,
+    "longitude": 77.397399,
+    "speed": 2.98,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:08:30.000Z"
+  },
+  {
+    "latitude": 23.21717,
+    "longitude": 77.396592,
+    "speed": 2.08,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:08:40.000Z"
+  },
+  {
+    "latitude": 23.217489,
+    "longitude": 77.395855,
+    "speed": 2.8,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:08:50.000Z"
+  },
+  {
+    "latitude": 23.217415,
+    "longitude": 77.396771,
+    "speed": 3.7,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:09:00.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:38:55.000Z"
+  },
+  {
+    "latitude": 23.216455,
+    "longitude": 77.396681,
+    "speed": 1.24,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:09:10.000Z"
+  },
+  {
+    "latitude": 23.216501,
+    "longitude": 77.397182,
+    "speed": 2.65,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:09:20.000Z"
+  },
+  {
+    "latitude": 23.215822,
+    "longitude": 77.396379,
+    "speed": 3.75,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:09:30.000Z"
+  },
+  {
+    "latitude": 23.215963,
+    "longitude": 77.397015,
+    "speed": 0.52,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:09:40.000Z"
+  },
+  {
+    "latitude": 23.216272,
+    "longitude": 77.396142,
+    "speed": 3.31,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:09:50.000Z"
+  },
+  {
+    "latitude": 23.215924,
+    "longitude": 77.395586,
+    "speed": 2.66,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:10:00.000Z"
+  },
+  {
+    "latitude": 23.216038,
+    "longitude": 77.396162,
+    "speed": 1.95,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:10:10.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:40:04.000Z"
+  },
+  {
+    "latitude": 23.216513,
+    "longitude": 77.396256,
+    "speed": 3.03,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:10:20.000Z"
+  },
+  {
+    "latitude": 23.217552,
+    "longitude": 77.397447,
+    "speed": 3.64,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:10:30.000Z"
+  },
+  {
+    "latitude": 23.216147,
+    "longitude": 77.396543,
+    "speed": 1.79,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:10:40.000Z"
+  },
+  {
+    "latitude": 23.216739,
+    "longitude": 77.397356,
+    "speed": 3.45,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:10:50.000Z"
+  },
+  {
+    "latitude": 23.216664,
+    "longitude": 77.395771,
+    "speed": 1.86,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:11:00.000Z"
+  },
+  {
+    "latitude": 23.215809,
+    "longitude": 77.396424,
+    "speed": 4.23,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:11:10.000Z"
+  },
+  {
+    "latitude": 23.216582,
+    "longitude": 77.395863,
+    "speed": 4.67,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:11:20.000Z"
+  },
+  {
+    "latitude": 23.217356,
+    "longitude": 77.396333,
+    "speed": 0.79,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:11:30.000Z"
+  },
+  {
+    "latitude": 23.217093,
+    "longitude": 77.395984,
+    "speed": 2.05,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:11:40.000Z"
+  },
+  {
+    "latitude": 23.217197,
+    "longitude": 77.397409,
+    "speed": 3.71,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:11:50.000Z"
+  },
+  {
+    "latitude": 23.215813,
+    "longitude": 77.397305,
+    "speed": 4.71,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:12:00.000Z"
+  },
+  {
+    "latitude": 23.216007,
+    "longitude": 77.395529,
+    "speed": 2.66,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:12:10.000Z"
+  },
+  {
+    "latitude": 23.216726,
+    "longitude": 77.396388,
+    "speed": 0.14,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:12:20.000Z"
+  },
+  {
+    "latitude": 23.216953,
+    "longitude": 77.396659,
+    "speed": 0.97,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:12:30.000Z"
+  },
+  {
+    "latitude": 23.216919,
+    "longitude": 77.396561,
+    "speed": 3.98,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:12:40.000Z"
+  },
+  {
+    "latitude": 23.216755,
+    "longitude": 77.397323,
+    "speed": 4.47,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:12:50.000Z"
+  },
+  {
+    "latitude": 23.217404,
+    "longitude": 77.395959,
+    "speed": 2.48,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:14:20.000Z"
+  },
+  {
+    "latitude": 23.216116,
+    "longitude": 77.397418,
+    "speed": 4.1,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:14:30.000Z"
+  },
+  {
+    "latitude": 23.216397,
+    "longitude": 77.396871,
+    "speed": 4.11,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:14:40.000Z"
+  },
+  {
+    "latitude": 23.216248,
+    "longitude": 77.395656,
+    "speed": 3.57,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:14:50.000Z"
+  },
+  {
+    "latitude": 23.215789,
+    "longitude": 77.397298,
+    "speed": 4.17,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:15:00.000Z"
+  },
+  {
+    "latitude": 23.216785,
+    "longitude": 77.396576,
+    "speed": 2.5,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:44:54.000Z"
+  },
+  {
+    "latitude": 23.215909,
+    "longitude": 77.397444,
+    "speed": 2.31,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:15:10.000Z"
+  },
+  {
+    "latitude": 23.215783,
+    "longitude": 77.396017,
+    "speed": 3.72,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:15:20.000Z"
+  },
+  {
+    "latitude": 23.217503,
+    "longitude": 77.396211,
+    "speed": 4.76,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:15:30.000Z"
+  },
+  {
+    "latitude": 23.216001,
+    "longitude": 77.396244,
+    "speed": 2.48,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:15:40.000Z"
+  },
+  {
+    "latitude": 23.216671,
+    "longitude": 77.396007,
+    "speed": 2.32,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:15:50.000Z"
+  },
+  {
+    "latitude": 23.217596,
+    "longitude": 77.396493,
+    "speed": 0.01,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:16:00.000Z"
+  },
+  {
+    "latitude": 23.215874,
+    "longitude": 77.397086,
+    "speed": 2.42,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:16:10.000Z"
+  },
+  {
+    "latitude": 23.217372,
+    "longitude": 77.396325,
+    "speed": 3.71,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:16:20.000Z"
+  },
+  {
+    "latitude": 23.217407,
+    "longitude": 77.397449,
+    "speed": 1.66,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:16:30.000Z"
+  },
+  {
+    "latitude": 23.217676,
+    "longitude": 77.396587,
+    "speed": 4.65,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:16:40.000Z"
+  },
+  {
+    "latitude": 23.217,
+    "longitude": 77.396009,
+    "speed": 3.64,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:16:50.000Z"
+  },
+  {
+    "latitude": 23.216902,
+    "longitude": 77.397418,
+    "speed": 1.66,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:17:00.000Z"
+  },
+  {
+    "latitude": 23.216933,
+    "longitude": 77.397406,
+    "speed": 4.69,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:17:10.000Z"
+  },
+  {
+    "latitude": 23.216742,
+    "longitude": 77.396584,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T01:47:12.000Z"
+  },
+  {
+    "latitude": 23.216803,
+    "longitude": 77.395506,
+    "speed": 3.52,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:17:30.000Z"
+  },
+  {
+    "latitude": 23.216829,
+    "longitude": 77.396591,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T01:48:21.000Z"
+  },
+  {
+    "latitude": 23.216766,
+    "longitude": 77.396584,
+    "speed": 0.19,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:49:30.000Z"
+  },
+  {
+    "latitude": 23.217548,
+    "longitude": 77.396581,
+    "speed": 2.95,
+    "battery": 99,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:20:45.000Z"
+  },
+  {
+    "latitude": 23.217618,
+    "longitude": 77.395548,
+    "speed": 2.67,
+    "battery": 98,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:20:55.000Z"
+  },
+  {
+    "latitude": 23.217492,
+    "longitude": 77.39645,
+    "speed": 4.65,
+    "battery": 97,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:21:05.000Z"
+  },
+  {
+    "latitude": 23.217611,
+    "longitude": 77.396294,
+    "speed": 2.41,
+    "battery": 96,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:21:15.000Z"
+  },
+  {
+    "latitude": 23.216288,
+    "longitude": 77.395952,
+    "speed": 0.9,
+    "battery": 95,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:21:25.000Z"
+  },
+  {
+    "latitude": 23.217298,
+    "longitude": 77.395747,
+    "speed": 0.6,
+    "battery": 94,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:21:35.000Z"
+  },
+  {
+    "latitude": 23.215941,
+    "longitude": 77.396609,
+    "speed": 2.07,
+    "battery": 93,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:21:45.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:51:47.000Z"
+  },
+  {
+    "latitude": 23.216742,
+    "longitude": 77.395684,
+    "speed": 4.83,
+    "battery": 91,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:22:05.000Z"
+  },
+  {
+    "latitude": 23.21577,
+    "longitude": 77.396477,
+    "speed": 2.92,
+    "battery": 90,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:22:15.000Z"
+  },
+  {
+    "latitude": 23.217235,
+    "longitude": 77.397263,
+    "speed": 3.69,
+    "battery": 89,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:22:25.000Z"
+  },
+  {
+    "latitude": 23.216248,
+    "longitude": 77.39559,
+    "speed": 2.17,
+    "battery": 88,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:22:35.000Z"
+  },
+  {
+    "latitude": 23.216108,
+    "longitude": 77.397082,
+    "speed": 4.85,
+    "battery": 87,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:22:45.000Z"
+  },
+  {
+    "latitude": 23.216067,
+    "longitude": 77.397454,
+    "speed": 0.6,
+    "battery": 86,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:22:55.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:52:55.000Z"
+  },
+  {
+    "latitude": 23.217155,
+    "longitude": 77.397173,
+    "speed": 4.86,
+    "battery": 85,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:23:05.000Z"
+  },
+  {
+    "latitude": 23.216035,
+    "longitude": 77.396074,
+    "speed": 0.6,
+    "battery": 84,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:23:15.000Z"
+  },
+  {
+    "latitude": 23.216022,
+    "longitude": 77.395609,
+    "speed": 3.25,
+    "battery": 83,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:23:25.000Z"
+  },
+  {
+    "latitude": 23.216574,
+    "longitude": 77.39632,
+    "speed": 1.42,
+    "battery": 82,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:23:35.000Z"
+  },
+  {
+    "latitude": 23.216366,
+    "longitude": 77.396696,
+    "speed": 0.33,
+    "battery": 81,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:23:45.000Z"
+  },
+  {
+    "latitude": 23.216746,
+    "longitude": 77.396193,
+    "speed": 0.02,
+    "battery": 80,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:23:55.000Z"
+  },
+  {
+    "latitude": 23.216793,
+    "longitude": 77.396265,
+    "speed": 3.85,
+    "battery": 79,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:24:05.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:54:03.000Z"
+  },
+  {
+    "latitude": 23.217167,
+    "longitude": 77.397229,
+    "speed": 3.86,
+    "battery": 78,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:24:15.000Z"
+  },
+  {
+    "latitude": 23.216959,
+    "longitude": 77.397353,
+    "speed": 4.74,
+    "battery": 77,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:24:25.000Z"
+  },
+  {
+    "latitude": 23.216189,
+    "longitude": 77.395549,
+    "speed": 2.11,
+    "battery": 76,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:24:35.000Z"
+  },
+  {
+    "latitude": 23.216595,
+    "longitude": 77.396181,
+    "speed": 1.3,
+    "battery": 75,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:24:45.000Z"
+  },
+  {
+    "latitude": 23.215988,
+    "longitude": 77.396055,
+    "speed": 2.96,
+    "battery": 74,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:24:55.000Z"
+  },
+  {
+    "latitude": 23.2162,
+    "longitude": 77.396083,
+    "speed": 3.81,
+    "battery": 73,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:25:05.000Z"
+  },
+  {
+    "latitude": 23.216702,
+    "longitude": 77.395907,
+    "speed": 4.74,
+    "battery": 72,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:25:15.000Z"
+  },
+  {
+    "latitude": 23.2334,
+    "longitude": 77.4011,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T01:55:12.000Z"
+  },
+  {
+    "latitude": 23.217584,
+    "longitude": 77.396724,
+    "speed": 2.5,
+    "battery": 71,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:25:25.000Z"
+  },
+  {
+    "latitude": 23.216969,
+    "longitude": 77.395991,
+    "speed": 3.8,
+    "battery": 70,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:25:36.000Z"
+  },
+  {
+    "latitude": 23.215866,
+    "longitude": 77.397036,
+    "speed": 0.08,
+    "battery": 69,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:25:46.000Z"
+  },
+  {
+    "latitude": 23.217346,
+    "longitude": 77.397141,
+    "speed": 3.99,
+    "battery": 68,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:25:56.000Z"
+  },
+  {
+    "latitude": 23.21759,
+    "longitude": 77.396589,
+    "speed": 4.95,
+    "battery": 67,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:26:06.000Z"
+  },
+  {
+    "latitude": 23.217256,
+    "longitude": 77.39737,
+    "speed": 3,
+    "battery": 66,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:26:16.000Z"
+  },
+  {
+    "latitude": 23.216808,
+    "longitude": 77.39671,
+    "speed": 2.75,
+    "battery": 65,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:26:26.000Z"
+  },
+  {
+    "latitude": 23.216174,
+    "longitude": 77.396483,
+    "speed": 4.79,
+    "battery": 62,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:26:56.000Z"
+  },
+  {
+    "latitude": 23.216553,
+    "longitude": 77.395885,
+    "speed": 1.78,
+    "battery": 61,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:27:06.000Z"
+  },
+  {
+    "latitude": 23.216376,
+    "longitude": 77.397417,
+    "speed": 0.42,
+    "battery": 60,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:27:16.000Z"
+  },
+  {
+    "latitude": 23.216701,
+    "longitude": 77.396059,
+    "speed": 1.51,
+    "battery": 59,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:27:26.000Z"
+  },
+  {
+    "latitude": 23.216343,
+    "longitude": 77.395931,
+    "speed": 2.91,
+    "battery": 58,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:27:36.000Z"
+  },
+  {
+    "latitude": 23.217188,
+    "longitude": 77.396622,
+    "speed": 11.7,
+    "battery": 100,
+    "satellites": 5,
+    "timestamp": "2026-08-13T01:57:30.000Z"
+  },
+  {
+    "latitude": 23.215913,
+    "longitude": 77.396297,
+    "speed": 3.99,
+    "battery": 57,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:27:46.000Z"
+  },
+  {
+    "latitude": 23.215833,
+    "longitude": 77.397109,
+    "speed": 1.45,
+    "battery": 56,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:27:56.000Z"
+  },
+  {
+    "latitude": 23.21767,
+    "longitude": 77.396289,
+    "speed": 2.28,
+    "battery": 55,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:28:06.000Z"
+  },
+  {
+    "latitude": 23.217675,
+    "longitude": 77.39664,
+    "speed": 0.25,
+    "battery": 54,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:28:16.000Z"
+  },
+  {
+    "latitude": 23.217373,
+    "longitude": 77.395754,
+    "speed": 4.34,
+    "battery": 53,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:28:26.000Z"
+  },
+  {
+    "latitude": 23.217212,
+    "longitude": 77.396429,
+    "speed": 4.92,
+    "battery": 52,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:28:36.000Z"
+  },
+  {
+    "latitude": 23.216231,
+    "longitude": 77.396606,
+    "speed": 4.56,
+    "battery": 51,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:28:46.000Z"
+  },
+  {
+    "latitude": 23.216684,
+    "longitude": 77.396629,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T01:58:38.000Z"
+  },
+  {
+    "latitude": 23.217546,
+    "longitude": 77.396793,
+    "speed": 0.84,
+    "battery": 50,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:28:56.000Z"
+  },
+  {
+    "latitude": 23.215746,
+    "longitude": 77.397312,
+    "speed": 4.09,
+    "battery": 49,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:29:06.000Z"
+  },
+  {
+    "latitude": 23.216942,
+    "longitude": 77.397356,
+    "speed": 2.53,
+    "battery": 48,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:29:16.000Z"
+  },
+  {
+    "latitude": 23.216302,
+    "longitude": 77.39672,
+    "speed": 0.33,
+    "battery": 47,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:29:26.000Z"
+  },
+  {
+    "latitude": 23.216805,
+    "longitude": 77.396003,
+    "speed": 4.69,
+    "battery": 46,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:29:36.000Z"
+  },
+  {
+    "latitude": 23.21762,
+    "longitude": 77.397406,
+    "speed": 0.87,
+    "battery": 45,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:29:46.000Z"
+  },
+  {
+    "latitude": 23.217196,
+    "longitude": 77.396782,
+    "speed": 4.82,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T01:59:47.000Z"
+  },
+  {
+    "latitude": 23.215861,
+    "longitude": 77.39575,
+    "speed": 1.66,
+    "battery": 44,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:29:56.000Z"
+  },
+  {
+    "latitude": 23.216769,
+    "longitude": 77.395621,
+    "speed": 4.87,
+    "battery": 43,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:30:06.000Z"
+  },
+  {
+    "latitude": 23.21706,
+    "longitude": 77.396616,
+    "speed": 1.54,
+    "battery": 42,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:30:16.000Z"
+  },
+  {
+    "latitude": 23.2165,
+    "longitude": 77.396154,
+    "speed": 1.09,
+    "battery": 41,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:30:26.000Z"
+  },
+  {
+    "latitude": 23.216077,
+    "longitude": 77.397335,
+    "speed": 2.16,
+    "battery": 40,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:30:36.000Z"
+  },
+  {
+    "latitude": 23.217478,
+    "longitude": 77.39609,
+    "speed": 3.29,
+    "battery": 39,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:30:46.000Z"
+  },
+  {
+    "latitude": 23.216802,
+    "longitude": 77.397461,
+    "speed": 1.75,
+    "battery": 38,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:30:56.000Z"
+  },
+  {
+    "latitude": 23.2174,
+    "longitude": 77.396492,
+    "speed": 3.48,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T02:00:56.000Z"
+  },
+  {
+    "latitude": 23.217328,
+    "longitude": 77.396622,
+    "speed": 4.64,
+    "battery": 37,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:31:06.000Z"
+  },
+  {
+    "latitude": 23.21671,
+    "longitude": 77.397448,
+    "speed": 0.5,
+    "battery": 36,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:31:16.000Z"
+  },
+  {
+    "latitude": 23.21676,
+    "longitude": 77.397313,
+    "speed": 4.25,
+    "battery": 35,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:31:26.000Z"
+  },
+  {
+    "latitude": 23.217445,
+    "longitude": 77.397029,
+    "speed": 4.02,
+    "battery": 34,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:31:36.000Z"
+  },
+  {
+    "latitude": 23.216853,
+    "longitude": 77.397332,
+    "speed": 3.78,
+    "battery": 33,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:31:46.000Z"
+  },
+  {
+    "latitude": 23.21599,
+    "longitude": 77.396454,
+    "speed": 4.59,
+    "battery": 32,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:31:56.000Z"
+  },
+  {
+    "latitude": 23.216909,
+    "longitude": 77.396668,
+    "speed": 4.8,
+    "battery": 31,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:32:06.000Z"
+  },
+  {
+    "latitude": 23.217052,
+    "longitude": 77.3964,
+    "speed": 3.48,
+    "battery": 100,
+    "satellites": 2,
+    "timestamp": "2026-08-13T02:02:05.000Z"
+  },
+  {
+    "latitude": 23.215847,
+    "longitude": 77.396737,
+    "speed": 1.92,
+    "battery": 30,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:32:16.000Z"
+  },
+  {
+    "latitude": 23.216865,
+    "longitude": 77.39631,
+    "speed": 3.09,
+    "battery": 29,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:32:26.000Z"
+  },
+  {
+    "latitude": 23.215736,
+    "longitude": 77.395714,
+    "speed": 4.64,
+    "battery": 28,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:32:36.000Z"
+  },
+  {
+    "latitude": 23.217424,
+    "longitude": 77.396295,
+    "speed": 1.5,
+    "battery": 27,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:32:46.000Z"
+  },
+  {
+    "latitude": 23.216761,
+    "longitude": 77.396277,
+    "speed": 2.86,
+    "battery": 26,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:32:56.000Z"
+  },
+  {
+    "latitude": 23.217273,
+    "longitude": 77.395702,
+    "speed": 2.34,
+    "battery": 25,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:33:06.000Z"
+  },
+  {
+    "latitude": 23.217153,
+    "longitude": 77.395936,
+    "speed": 1.86,
+    "battery": 24,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:33:16.000Z"
+  },
+  {
+    "latitude": 23.21595,
+    "longitude": 77.396191,
+    "speed": 1.42,
+    "battery": 23,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:33:26.000Z"
+  },
+  {
+    "latitude": 23.215949,
+    "longitude": 77.396899,
+    "speed": 0.17,
+    "battery": 22,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:33:36.000Z"
+  },
+  {
+    "latitude": 23.217166,
+    "longitude": 77.39583,
+    "speed": 3.19,
+    "battery": 21,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:33:46.000Z"
+  },
+  {
+    "latitude": 23.217276,
+    "longitude": 77.396291,
+    "speed": 2.67,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:33:56.000Z"
+  },
+  {
+    "latitude": 23.216918,
+    "longitude": 77.396766,
+    "speed": 0.72,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:34:06.000Z"
+  },
+  {
+    "latitude": 23.21597,
+    "longitude": 77.396856,
+    "speed": 0.69,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:34:16.000Z"
+  },
+  {
+    "latitude": 23.217641,
+    "longitude": 77.396312,
+    "speed": 0.26,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:34:26.000Z"
+  },
+  {
+    "latitude": 23.217422,
+    "longitude": 77.396714,
+    "speed": 2.23,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:34:36.000Z"
+  },
+  {
+    "latitude": 23.217422,
+    "longitude": 77.396714,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 2,
+    "timestamp": "2026-08-13T02:04:31.000Z"
+  },
+  {
+    "latitude": 23.217422,
+    "longitude": 77.396714,
+    "speed": 0,
+    "battery": 0,
+    "satellites": 0,
+    "timestamp": "2026-08-13T02:04:31.000Z"
+  },
+  {
+    "latitude": 23.217105,
+    "longitude": 77.39652,
+    "speed": 3.02,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:34:46.000Z"
+  },
+  {
+    "latitude": 23.217679,
+    "longitude": 77.39575,
+    "speed": 3.18,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:34:56.000Z"
+  },
+  {
+    "latitude": 23.217728,
+    "longitude": 77.397059,
+    "speed": 2.19,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:35:06.000Z"
+  },
+  {
+    "latitude": 23.216717,
+    "longitude": 77.396423,
+    "speed": 4.67,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:35:16.000Z"
+  },
+  {
+    "latitude": 23.216628,
+    "longitude": 77.39575,
+    "speed": 3.85,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:35:26.000Z"
+  },
+  {
+    "latitude": 23.216961,
+    "longitude": 77.396459,
+    "speed": 2.63,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:35:36.000Z"
+  },
+  {
+    "latitude": 23.215794,
+    "longitude": 77.396672,
+    "speed": 0.33,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:35:46.000Z"
+  },
+  {
+    "latitude": 23.215794,
+    "longitude": 77.396672,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 2,
+    "timestamp": "2026-08-13T02:05:47.000Z"
+  },
+  {
+    "latitude": 23.216385,
+    "longitude": 77.3955,
+    "speed": 2.96,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:35:56.000Z"
+  },
+  {
+    "latitude": 23.21702,
+    "longitude": 77.396525,
+    "speed": 1.81,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:36:06.000Z"
+  },
+  {
+    "latitude": 23.215991,
+    "longitude": 77.396785,
+    "speed": 1.88,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:36:16.000Z"
+  },
+  {
+    "latitude": 23.215895,
+    "longitude": 77.39635,
+    "speed": 3.13,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:36:26.000Z"
+  },
+  {
+    "latitude": 23.216734,
+    "longitude": 77.396797,
+    "speed": 0.59,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:36:36.000Z"
+  },
+  {
+    "latitude": 23.216228,
+    "longitude": 77.396549,
+    "speed": 0.56,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:36:46.000Z"
+  },
+  {
+    "latitude": 23.216693,
+    "longitude": 77.397178,
+    "speed": 1.97,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:36:56.000Z"
+  },
+  {
+    "latitude": 23.216693,
+    "longitude": 77.397178,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 2,
+    "timestamp": "2026-08-13T02:06:56.000Z"
+  },
+  {
+    "latitude": 23.217287,
+    "longitude": 77.396594,
+    "speed": 4.11,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:37:06.000Z"
+  },
+  {
+    "latitude": 23.217386,
+    "longitude": 77.396454,
+    "speed": 3.93,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:37:16.000Z"
+  },
+  {
+    "latitude": 23.217079,
+    "longitude": 77.396211,
+    "speed": 3.79,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:37:26.000Z"
+  },
+  {
+    "latitude": 23.216204,
+    "longitude": 77.396149,
+    "speed": 1.13,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:37:36.000Z"
+  },
+  {
+    "latitude": 23.217292,
+    "longitude": 77.397027,
+    "speed": 4.87,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:37:46.000Z"
+  },
+  {
+    "latitude": 23.215732,
+    "longitude": 77.395675,
+    "speed": 2.07,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:37:56.000Z"
+  },
+  {
+    "latitude": 23.217282,
+    "longitude": 77.396825,
+    "speed": 3.41,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:38:06.000Z"
+  },
+  {
+    "latitude": 23.217282,
+    "longitude": 77.396825,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 2,
+    "timestamp": "2026-08-13T02:08:04.000Z"
+  },
+  {
+    "latitude": 23.216347,
+    "longitude": 77.396272,
+    "speed": 0.46,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:38:16.000Z"
+  },
+  {
+    "latitude": 23.216079,
+    "longitude": 77.397183,
+    "speed": 4.31,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:38:26.000Z"
+  },
+  {
+    "latitude": 23.217477,
+    "longitude": 77.395742,
+    "speed": 1.7,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:38:36.000Z"
+  },
+  {
+    "latitude": 23.215999,
+    "longitude": 77.396472,
+    "speed": 1.7,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:38:46.000Z"
+  },
+  {
+    "latitude": 23.217164,
+    "longitude": 77.39551,
+    "speed": 4.78,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:38:56.000Z"
+  },
+  {
+    "latitude": 23.21596,
+    "longitude": 77.396684,
+    "speed": 2.69,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:39:06.000Z"
+  },
+  {
+    "latitude": 23.217186,
+    "longitude": 77.395668,
+    "speed": 2.71,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:39:16.000Z"
+  },
+  {
+    "latitude": 23.217186,
+    "longitude": 77.395668,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 2,
+    "timestamp": "2026-08-13T02:09:13.000Z"
+  },
+  {
+    "latitude": 23.215822,
+    "longitude": 77.396282,
+    "speed": 2.04,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:39:26.000Z"
+  },
+  {
+    "latitude": 23.217068,
+    "longitude": 77.397421,
+    "speed": 2.62,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:39:36.000Z"
+  },
+  {
+    "latitude": 23.216071,
+    "longitude": 77.395938,
+    "speed": 3.74,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:39:46.000Z"
+  },
+  {
+    "latitude": 23.21647,
+    "longitude": 77.396486,
+    "speed": 2.19,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:39:56.000Z"
+  },
+  {
+    "latitude": 23.216965,
+    "longitude": 77.395514,
+    "speed": 1.23,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:40:06.000Z"
+  },
+  {
+    "latitude": 23.216189,
+    "longitude": 77.395523,
+    "speed": 0.46,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:40:16.000Z"
+  },
+  {
+    "latitude": 23.217647,
+    "longitude": 77.39642,
+    "speed": 0.04,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:40:26.000Z"
+  },
+  {
+    "latitude": 23.216987,
+    "longitude": 77.397365,
+    "speed": 1.58,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:40:36.000Z"
+  },
+  {
+    "latitude": 23.216566,
+    "longitude": 77.397138,
+    "speed": 1.92,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:40:46.000Z"
+  },
+  {
+    "latitude": 23.216481,
+    "longitude": 77.397217,
+    "speed": 4.69,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:40:56.000Z"
+  },
+  {
+    "latitude": 23.216104,
+    "longitude": 77.396346,
+    "speed": 4.01,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:41:06.000Z"
+  },
+  {
+    "latitude": 23.216881,
+    "longitude": 77.396271,
+    "speed": 3.62,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:41:16.000Z"
+  },
+  {
+    "latitude": 23.216663,
+    "longitude": 77.39568,
+    "speed": 2.53,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:41:26.000Z"
+  },
+  {
+    "latitude": 23.216172,
+    "longitude": 77.395575,
+    "speed": 4.57,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:41:36.000Z"
+  },
+  {
+    "latitude": 23.216172,
+    "longitude": 77.395575,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 2,
+    "timestamp": "2026-08-13T02:11:30.000Z"
+  },
+  {
+    "latitude": 23.217459,
+    "longitude": 77.395691,
+    "speed": 2.49,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:41:46.000Z"
+  },
+  {
+    "latitude": 23.216521,
+    "longitude": 77.396195,
+    "speed": 0.05,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:41:56.000Z"
+  },
+  {
+    "latitude": 23.217532,
+    "longitude": 77.395861,
+    "speed": 3.61,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:42:06.000Z"
+  },
+  {
+    "latitude": 23.216037,
+    "longitude": 77.396524,
+    "speed": 2.58,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:42:16.000Z"
+  },
+  {
+    "latitude": 23.216217,
+    "longitude": 77.39706,
+    "speed": 2.48,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:42:26.000Z"
+  },
+  {
+    "latitude": 23.216694,
+    "longitude": 77.395858,
+    "speed": 4.41,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:42:36.000Z"
+  },
+  {
+    "latitude": 23.216694,
+    "longitude": 77.395858,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 2,
+    "timestamp": "2026-08-13T02:12:39.000Z"
+  },
+  {
+    "latitude": 23.216084,
+    "longitude": 77.396289,
+    "speed": 3.9,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:42:46.000Z"
+  },
+  {
+    "latitude": 23.21715,
+    "longitude": 77.397362,
+    "speed": 1.75,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:42:56.000Z"
+  },
+  {
+    "latitude": 23.216008,
+    "longitude": 77.396523,
+    "speed": 0.07,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:43:06.000Z"
+  },
+  {
+    "latitude": 23.216799,
+    "longitude": 77.397252,
+    "speed": 2.7,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:43:16.000Z"
+  },
+  {
+    "latitude": 23.21699,
+    "longitude": 77.397054,
+    "speed": 0.16,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:43:26.000Z"
+  },
+  {
+    "latitude": 23.217255,
+    "longitude": 77.395909,
+    "speed": 1.32,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:43:36.000Z"
+  },
+  {
+    "latitude": 23.217249,
+    "longitude": 77.396243,
+    "speed": 3.55,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:43:46.000Z"
+  },
+  {
+    "latitude": 23.217249,
+    "longitude": 77.396243,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 2,
+    "timestamp": "2026-08-13T02:13:48.000Z"
+  },
+  {
+    "latitude": 23.21625,
+    "longitude": 77.395607,
+    "speed": 3.21,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:43:56.000Z"
+  },
+  {
+    "latitude": 23.216518,
+    "longitude": 77.395749,
+    "speed": 2.39,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:44:06.000Z"
+  },
+  {
+    "latitude": 23.2163,
+    "longitude": 77.395915,
+    "speed": 4.79,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:44:16.000Z"
+  },
+  {
+    "latitude": 23.217089,
+    "longitude": 77.39553,
+    "speed": 2,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:44:26.000Z"
+  },
+  {
+    "latitude": 23.216732,
+    "longitude": 77.395631,
+    "speed": 2.78,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:44:36.000Z"
+  },
+  {
+    "latitude": 23.21605,
+    "longitude": 77.397261,
+    "speed": 1.81,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:44:47.000Z"
+  },
+  {
+    "latitude": 23.217089,
+    "longitude": 77.397267,
+    "speed": 4.48,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:44:57.000Z"
+  },
+  {
+    "latitude": 23.21722,
+    "longitude": 77.396637,
+    "speed": 0.3,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T02:14:56.000Z"
+  },
+  {
+    "latitude": 23.21657,
+    "longitude": 77.39709,
+    "speed": 4.56,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:45:07.000Z"
+  },
+  {
+    "latitude": 23.21631,
+    "longitude": 77.397157,
+    "speed": 0.72,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:45:17.000Z"
+  },
+  {
+    "latitude": 23.216259,
+    "longitude": 77.396182,
+    "speed": 3.52,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:45:27.000Z"
+  },
+  {
+    "latitude": 23.217624,
+    "longitude": 77.396766,
+    "speed": 4.48,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:45:37.000Z"
+  },
+  {
+    "latitude": 23.217271,
+    "longitude": 77.397074,
+    "speed": 4.56,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:45:47.000Z"
+  },
+  {
+    "latitude": 23.217701,
+    "longitude": 77.396588,
+    "speed": 1.65,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:45:57.000Z"
+  },
+  {
+    "latitude": 23.217659,
+    "longitude": 77.396337,
+    "speed": 2.27,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:46:07.000Z"
+  },
+  {
+    "latitude": 23.216198,
+    "longitude": 77.397346,
+    "speed": 4.99,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:46:17.000Z"
+  },
+  {
+    "latitude": 23.216508,
+    "longitude": 77.39603,
+    "speed": 4.1,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:46:27.000Z"
+  },
+  {
+    "latitude": 23.215831,
+    "longitude": 77.395591,
+    "speed": 4.01,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:46:37.000Z"
+  },
+  {
+    "latitude": 23.215971,
+    "longitude": 77.396133,
+    "speed": 2.92,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:46:47.000Z"
+  },
+  {
+    "latitude": 23.217677,
+    "longitude": 77.396891,
+    "speed": 1.31,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:46:57.000Z"
+  },
+  {
+    "latitude": 23.216354,
+    "longitude": 77.395925,
+    "speed": 0.6,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:47:07.000Z"
+  },
+  {
+    "latitude": 23.216635,
+    "longitude": 77.39569,
+    "speed": 0.03,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:47:17.000Z"
+  },
+  {
+    "latitude": 23.216974,
+    "longitude": 77.396697,
+    "speed": 4.52,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:47:27.000Z"
+  },
+  {
+    "latitude": 23.216974,
+    "longitude": 77.396697,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T02:17:21.000Z"
+  },
+  {
+    "latitude": 23.216974,
+    "longitude": 77.396697,
+    "speed": 0,
+    "battery": 0,
+    "satellites": 0,
+    "timestamp": "2026-08-13T02:17:21.000Z"
+  },
+  {
+    "latitude": 23.215845,
+    "longitude": 77.397023,
+    "speed": 2.51,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:47:37.000Z"
+  },
+  {
+    "latitude": 23.216687,
+    "longitude": 77.396679,
+    "speed": 1.89,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:47:47.000Z"
+  },
+  {
+    "latitude": 23.216387,
+    "longitude": 77.39581,
+    "speed": 4.68,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:47:57.000Z"
+  },
+  {
+    "latitude": 23.217122,
+    "longitude": 77.395672,
+    "speed": 2.73,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:48:07.000Z"
+  },
+  {
+    "latitude": 23.215792,
+    "longitude": 77.396994,
+    "speed": 3.37,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:48:17.000Z"
+  },
+  {
+    "latitude": 23.217232,
+    "longitude": 77.396847,
+    "speed": 3.73,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:48:27.000Z"
+  },
+  {
+    "latitude": 23.217208,
+    "longitude": 77.39607,
+    "speed": 2.84,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:48:37.000Z"
+  },
+  {
+    "latitude": 23.21685,
+    "longitude": 77.39669,
+    "speed": 3.39,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T02:18:37.000Z"
+  },
+  {
+    "latitude": 23.215942,
+    "longitude": 77.397326,
+    "speed": 2.91,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:48:47.000Z"
+  },
+  {
+    "latitude": 23.215975,
+    "longitude": 77.396246,
+    "speed": 3.45,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:48:57.000Z"
+  },
+  {
+    "latitude": 23.215842,
+    "longitude": 77.397155,
+    "speed": 2.74,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:49:07.000Z"
+  },
+  {
+    "latitude": 23.217405,
+    "longitude": 77.396488,
+    "speed": 2.53,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:49:17.000Z"
+  },
+  {
+    "latitude": 23.21724,
+    "longitude": 77.395554,
+    "speed": 0.24,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:49:27.000Z"
+  },
+  {
+    "latitude": 23.217428,
+    "longitude": 77.396231,
+    "speed": 1.5,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:49:37.000Z"
+  },
+  {
+    "latitude": 23.216072,
+    "longitude": 77.397122,
+    "speed": 2.73,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:49:47.000Z"
+  },
+  {
+    "latitude": 23.216072,
+    "longitude": 77.397122,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T02:19:46.000Z"
+  },
+  {
+    "latitude": 23.216282,
+    "longitude": 77.396866,
+    "speed": 0.38,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:49:57.000Z"
+  },
+  {
+    "latitude": 23.216182,
+    "longitude": 77.396484,
+    "speed": 0.8,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:50:07.000Z"
+  },
+  {
+    "latitude": 23.216541,
+    "longitude": 77.396345,
+    "speed": 3.12,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:50:17.000Z"
+  },
+  {
+    "latitude": 23.217583,
+    "longitude": 77.396768,
+    "speed": 1.45,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:50:27.000Z"
+  },
+  {
+    "latitude": 23.216273,
+    "longitude": 77.395693,
+    "speed": 4.26,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:50:37.000Z"
+  },
+  {
+    "latitude": 23.216997,
+    "longitude": 77.397268,
+    "speed": 1.49,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:50:47.000Z"
+  },
+  {
+    "latitude": 23.217572,
+    "longitude": 77.397191,
+    "speed": 3.98,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:50:57.000Z"
+  },
+  {
+    "latitude": 23.217572,
+    "longitude": 77.397191,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T02:20:55.000Z"
+  },
+  {
+    "latitude": 23.216128,
+    "longitude": 77.396154,
+    "speed": 0.01,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:51:07.000Z"
+  },
+  {
+    "latitude": 23.216597,
+    "longitude": 77.39624,
+    "speed": 2.98,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:51:17.000Z"
+  },
+  {
+    "latitude": 23.217483,
+    "longitude": 77.395973,
+    "speed": 4.18,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:51:27.000Z"
+  },
+  {
+    "latitude": 23.216764,
+    "longitude": 77.395926,
+    "speed": 0.49,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:51:37.000Z"
+  },
+  {
+    "latitude": 23.216042,
+    "longitude": 77.39626,
+    "speed": 1.49,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:51:47.000Z"
+  },
+  {
+    "latitude": 23.21761,
+    "longitude": 77.395612,
+    "speed": 2.63,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:51:57.000Z"
+  },
+  {
+    "latitude": 23.217463,
+    "longitude": 77.397317,
+    "speed": 4.63,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:52:07.000Z"
+  },
+  {
+    "latitude": 23.216474,
+    "longitude": 77.397321,
+    "speed": 4.81,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:52:17.000Z"
+  },
+  {
+    "latitude": 23.217431,
+    "longitude": 77.397481,
+    "speed": 2.09,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:52:27.000Z"
+  },
+  {
+    "latitude": 23.215921,
+    "longitude": 77.396402,
+    "speed": 1.82,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:52:37.000Z"
+  },
+  {
+    "latitude": 23.216955,
+    "longitude": 77.396562,
+    "speed": 3.39,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:52:47.000Z"
+  },
+  {
+    "latitude": 23.217095,
+    "longitude": 77.397341,
+    "speed": 4.89,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:52:57.000Z"
+  },
+  {
+    "latitude": 23.216077,
+    "longitude": 77.397071,
+    "speed": 3.72,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:53:07.000Z"
+  },
+  {
+    "latitude": 23.217694,
+    "longitude": 77.396735,
+    "speed": 0.25,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:53:17.000Z"
+  },
+  {
+    "latitude": 23.21669,
+    "longitude": 77.396735,
+    "speed": 3.37,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:53:27.000Z"
+  },
+  {
+    "latitude": 23.21669,
+    "longitude": 77.396735,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T02:23:20.000Z"
+  },
+  {
+    "latitude": 23.21669,
+    "longitude": 77.396735,
+    "speed": 0,
+    "battery": 0,
+    "satellites": 0,
+    "timestamp": "2026-08-13T02:23:20.000Z"
+  },
+  {
+    "latitude": 23.216007,
+    "longitude": 77.397328,
+    "speed": 3.63,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:53:37.000Z"
+  },
+  {
+    "latitude": 23.216204,
+    "longitude": 77.397153,
+    "speed": 3.61,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:53:47.000Z"
+  },
+  {
+    "latitude": 23.217082,
+    "longitude": 77.396115,
+    "speed": 2.14,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:53:57.000Z"
+  },
+  {
+    "latitude": 23.216973,
+    "longitude": 77.396198,
+    "speed": 3.28,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:54:07.000Z"
+  },
+  {
+    "latitude": 23.216797,
+    "longitude": 77.397142,
+    "speed": 3.58,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:54:17.000Z"
+  },
+  {
+    "latitude": 23.217687,
+    "longitude": 77.396836,
+    "speed": 4.02,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:54:27.000Z"
+  },
+  {
+    "latitude": 23.216914,
+    "longitude": 77.396058,
+    "speed": 3.56,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:54:37.000Z"
+  },
+  {
+    "latitude": 23.216715,
+    "longitude": 77.396492,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T02:24:36.000Z"
+  },
+  {
+    "latitude": 23.21743,
+    "longitude": 77.396383,
+    "speed": 0.93,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:54:47.000Z"
+  },
+  {
+    "latitude": 23.216238,
+    "longitude": 77.395615,
+    "speed": 1.13,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:54:57.000Z"
+  },
+  {
+    "latitude": 23.217077,
+    "longitude": 77.395961,
+    "speed": 0.06,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:55:07.000Z"
+  },
+  {
+    "latitude": 23.216458,
+    "longitude": 77.395958,
+    "speed": 4.61,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:55:17.000Z"
+  },
+  {
+    "latitude": 23.216694,
+    "longitude": 77.396973,
+    "speed": 3.47,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:55:27.000Z"
+  },
+  {
+    "latitude": 23.215873,
+    "longitude": 77.39683,
+    "speed": 3.98,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:55:37.000Z"
+  },
+  {
+    "latitude": 23.216567,
+    "longitude": 77.397491,
+    "speed": 4.64,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:55:47.000Z"
+  },
+  {
+    "latitude": 23.216763,
+    "longitude": 77.396545,
+    "speed": 1.98,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T02:25:45.000Z"
+  },
+  {
+    "latitude": 23.21759,
+    "longitude": 77.396805,
+    "speed": 1.9,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:55:57.000Z"
+  },
+  {
+    "latitude": 23.216782,
+    "longitude": 77.397284,
+    "speed": 3.77,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:56:07.000Z"
+  },
+  {
+    "latitude": 23.21753,
+    "longitude": 77.397357,
+    "speed": 0.14,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:56:17.000Z"
+  },
+  {
+    "latitude": 23.216166,
+    "longitude": 77.396965,
+    "speed": 2.74,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:56:27.000Z"
+  },
+  {
+    "latitude": 23.216768,
+    "longitude": 77.395577,
+    "speed": 4.42,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:56:37.000Z"
+  },
+  {
+    "latitude": 23.216502,
+    "longitude": 77.39616,
+    "speed": 4.53,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:56:47.000Z"
+  },
+  {
+    "latitude": 23.216758,
+    "longitude": 77.395948,
+    "speed": 4.72,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:56:57.000Z"
+  },
+  {
+    "latitude": 23.216661,
+    "longitude": 77.396591,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 5,
+    "timestamp": "2026-08-13T02:26:54.000Z"
+  },
+  {
+    "latitude": 23.215859,
+    "longitude": 77.396745,
+    "speed": 3.17,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:57:07.000Z"
+  },
+  {
+    "latitude": 23.217628,
+    "longitude": 77.397472,
+    "speed": 4.74,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:57:17.000Z"
+  },
+  {
+    "latitude": 23.216106,
+    "longitude": 77.397197,
+    "speed": 1.79,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:57:27.000Z"
+  },
+  {
+    "latitude": 23.216197,
+    "longitude": 77.397269,
+    "speed": 0.89,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:57:37.000Z"
+  },
+  {
+    "latitude": 23.216003,
+    "longitude": 77.39707,
+    "speed": 1.8,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:57:47.000Z"
+  },
+  {
+    "latitude": 23.217527,
+    "longitude": 77.396475,
+    "speed": 0.68,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:57:57.000Z"
+  },
+  {
+    "latitude": 23.216043,
+    "longitude": 77.39585,
+    "speed": 4.69,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:58:07.000Z"
+  },
+  {
+    "latitude": 23.216043,
+    "longitude": 77.39585,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 5,
+    "timestamp": "2026-08-13T02:28:03.000Z"
+  },
+  {
+    "latitude": 23.215974,
+    "longitude": 77.396113,
+    "speed": 4.06,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:58:17.000Z"
+  },
+  {
+    "latitude": 23.216912,
+    "longitude": 77.395536,
+    "speed": 2.84,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:58:27.000Z"
+  },
+  {
+    "latitude": 23.216483,
+    "longitude": 77.396573,
+    "speed": 2.75,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:58:37.000Z"
+  },
+  {
+    "latitude": 23.217702,
+    "longitude": 77.395658,
+    "speed": 0.31,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:58:47.000Z"
+  },
+  {
+    "latitude": 23.217714,
+    "longitude": 77.396615,
+    "speed": 4.81,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:58:57.000Z"
+  },
+  {
+    "latitude": 23.215768,
+    "longitude": 77.396855,
+    "speed": 2.27,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:59:07.000Z"
+  },
+  {
+    "latitude": 23.216555,
+    "longitude": 77.39704,
+    "speed": 4.31,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:59:17.000Z"
+  },
+  {
+    "latitude": 23.216555,
+    "longitude": 77.39704,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 5,
+    "timestamp": "2026-08-13T02:29:12.000Z"
+  },
+  {
+    "latitude": 23.21672,
+    "longitude": 77.396081,
+    "speed": 0.91,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:59:27.000Z"
+  },
+  {
+    "latitude": 23.217666,
+    "longitude": 77.395675,
+    "speed": 1.45,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:59:37.000Z"
+  },
+  {
+    "latitude": 23.217294,
+    "longitude": 77.396201,
+    "speed": 3.19,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:59:47.000Z"
+  },
+  {
+    "latitude": 23.216571,
+    "longitude": 77.395938,
+    "speed": 4.3,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T07:59:57.000Z"
+  },
+  {
+    "latitude": 23.216401,
+    "longitude": 77.396337,
+    "speed": 2.41,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:00:07.000Z"
+  },
+  {
+    "latitude": 23.215837,
+    "longitude": 77.397423,
+    "speed": 1.24,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:00:17.000Z"
+  },
+  {
+    "latitude": 23.21622,
+    "longitude": 77.396253,
+    "speed": 1.61,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:00:27.000Z"
+  },
+  {
+    "latitude": 23.216604,
+    "longitude": 77.396095,
+    "speed": 7.7,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T02:30:20.000Z"
+  },
+  {
+    "latitude": 23.216435,
+    "longitude": 77.397141,
+    "speed": 0.66,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:00:37.000Z"
+  },
+  {
+    "latitude": 23.216645,
+    "longitude": 77.397481,
+    "speed": 0.47,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:00:47.000Z"
+  },
+  {
+    "latitude": 23.216759,
+    "longitude": 77.397203,
+    "speed": 2.32,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:00:57.000Z"
+  },
+  {
+    "latitude": 23.216202,
+    "longitude": 77.39646,
+    "speed": 3.34,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:01:07.000Z"
+  },
+  {
+    "latitude": 23.21724,
+    "longitude": 77.396357,
+    "speed": 4.6,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:01:17.000Z"
+  },
+  {
+    "latitude": 23.216658,
+    "longitude": 77.395912,
+    "speed": 0.13,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:01:27.000Z"
+  },
+  {
+    "latitude": 23.216787,
+    "longitude": 77.39666,
+    "speed": 0.39,
+    "battery": 100,
+    "satellites": 5,
+    "timestamp": "2026-08-13T02:31:29.000Z"
+  },
+  {
+    "latitude": 23.217359,
+    "longitude": 77.396966,
+    "speed": 3.77,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:01:37.000Z"
+  },
+  {
+    "latitude": 23.217015,
+    "longitude": 77.396984,
+    "speed": 1.19,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:01:47.000Z"
+  },
+  {
+    "latitude": 23.216213,
+    "longitude": 77.396694,
+    "speed": 1.14,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:01:57.000Z"
+  },
+  {
+    "latitude": 23.21682,
+    "longitude": 77.39737,
+    "speed": 1.54,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:02:07.000Z"
+  },
+  {
+    "latitude": 23.216805,
+    "longitude": 77.396017,
+    "speed": 0.07,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:02:17.000Z"
+  },
+  {
+    "latitude": 23.217189,
+    "longitude": 77.397374,
+    "speed": 2.76,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:02:27.000Z"
+  },
+  {
+    "latitude": 23.216439,
+    "longitude": 77.397054,
+    "speed": 1.7,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:02:37.000Z"
+  },
+  {
+    "latitude": 23.217168,
+    "longitude": 77.396884,
+    "speed": 1.05,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:02:47.000Z"
+  },
+  {
+    "latitude": 23.217509,
+    "longitude": 77.396766,
+    "speed": 3.08,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:02:57.000Z"
+  },
+  {
+    "latitude": 23.216658,
+    "longitude": 77.396029,
+    "speed": 1.82,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:03:07.000Z"
+  },
+  {
+    "latitude": 23.216841,
+    "longitude": 77.397424,
+    "speed": 1.57,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:03:17.000Z"
+  },
+  {
+    "latitude": 23.217117,
+    "longitude": 77.39687,
+    "speed": 4.55,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:03:27.000Z"
+  },
+  {
+    "latitude": 23.217639,
+    "longitude": 77.396667,
+    "speed": 4.59,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:03:37.000Z"
+  },
+  {
+    "latitude": 23.216258,
+    "longitude": 77.395722,
+    "speed": 4.96,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:03:47.000Z"
+  },
+  {
+    "latitude": 23.216318,
+    "longitude": 77.396746,
+    "speed": 0.83,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:03:57.000Z"
+  },
+  {
+    "latitude": 23.216558,
+    "longitude": 77.396523,
+    "speed": 0.35,
+    "battery": 100,
+    "satellites": 5,
+    "timestamp": "2026-08-13T02:33:54.000Z"
+  },
+  {
+    "latitude": 23.215922,
+    "longitude": 77.397322,
+    "speed": 2.19,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:04:07.000Z"
+  },
+  {
+    "latitude": 23.216646,
+    "longitude": 77.396599,
+    "speed": 0,
+    "battery": 0,
+    "satellites": 0,
+    "timestamp": "2026-08-13T02:33:54.000Z"
+  },
+  {
+    "latitude": 23.216773,
+    "longitude": 77.396699,
+    "speed": 1.92,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:04:17.000Z"
+  },
+  {
+    "latitude": 23.21719,
+    "longitude": 77.397193,
+    "speed": 2.97,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:04:27.000Z"
+  },
+  {
+    "latitude": 23.217608,
+    "longitude": 77.396705,
+    "speed": 4.62,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:04:37.000Z"
+  },
+  {
+    "latitude": 23.217024,
+    "longitude": 77.395559,
+    "speed": 3.24,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:04:47.000Z"
+  },
+  {
+    "latitude": 23.217177,
+    "longitude": 77.39585,
+    "speed": 4.39,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:04:58.000Z"
+  },
+  {
+    "latitude": 23.216686,
+    "longitude": 77.39669,
+    "speed": 4.25,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:05:08.000Z"
+  },
+  {
+    "latitude": 23.216185,
+    "longitude": 77.39717,
+    "speed": 1.37,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:05:18.000Z"
+  },
+  {
+    "latitude": 23.217442,
+    "longitude": 77.397338,
+    "speed": 3.64,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:05:28.000Z"
+  },
+  {
+    "latitude": 23.215929,
+    "longitude": 77.396069,
+    "speed": 2.53,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:05:38.000Z"
+  },
+  {
+    "latitude": 23.216841,
+    "longitude": 77.395998,
+    "speed": 1.52,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:05:48.000Z"
+  },
+  {
+    "latitude": 23.216772,
+    "longitude": 77.395494,
+    "speed": 1.39,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:05:58.000Z"
+  },
+  {
+    "latitude": 23.216077,
+    "longitude": 77.39721,
+    "speed": 1.4,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:06:08.000Z"
+  },
+  {
+    "latitude": 23.217324,
+    "longitude": 77.397001,
+    "speed": 2.7,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:06:18.000Z"
+  },
+  {
+    "latitude": 23.217118,
+    "longitude": 77.395863,
+    "speed": 4.54,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:06:28.000Z"
+  },
+  {
+    "latitude": 23.216654,
+    "longitude": 77.39653,
+    "speed": 0.11,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T02:36:26.000Z"
+  },
+  {
+    "latitude": 23.216852,
+    "longitude": 77.396957,
+    "speed": 3.13,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:06:38.000Z"
+  },
+  {
+    "latitude": 23.216846,
+    "longitude": 77.396568,
+    "speed": 0.3,
+    "battery": 0,
+    "satellites": 0,
+    "timestamp": "2026-08-13T02:36:26.000Z"
+  },
+  {
+    "latitude": 23.217668,
+    "longitude": 77.396226,
+    "speed": 0.2,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:06:48.000Z"
+  },
+  {
+    "latitude": 23.216111,
+    "longitude": 77.395669,
+    "speed": 0.2,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:06:58.000Z"
+  },
+  {
+    "latitude": 23.215881,
+    "longitude": 77.397122,
+    "speed": 0.53,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:07:08.000Z"
+  },
+  {
+    "latitude": 23.217009,
+    "longitude": 77.396009,
+    "speed": 4.49,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:07:18.000Z"
+  },
+  {
+    "latitude": 23.217661,
+    "longitude": 77.397168,
+    "speed": 2.58,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:07:28.000Z"
+  },
+  {
+    "latitude": 23.217678,
+    "longitude": 77.396044,
+    "speed": 3.05,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:07:38.000Z"
+  },
+  {
+    "latitude": 23.216807,
+    "longitude": 77.395838,
+    "speed": 2.04,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:07:48.000Z"
+  },
+  {
+    "latitude": 23.216703,
+    "longitude": 77.396584,
+    "speed": 1.44,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T02:37:42.000Z"
+  },
+  {
+    "latitude": 23.216337,
+    "longitude": 77.396485,
+    "speed": 2.58,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:07:58.000Z"
+  },
+  {
+    "latitude": 23.216757,
+    "longitude": 77.395862,
+    "speed": 3.49,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:08:08.000Z"
+  },
+  {
+    "latitude": 23.21654,
+    "longitude": 77.397297,
+    "speed": 4.86,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:08:18.000Z"
+  },
+  {
+    "latitude": 23.217508,
+    "longitude": 77.396569,
+    "speed": 3.33,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:08:28.000Z"
+  },
+  {
+    "latitude": 23.216729,
+    "longitude": 77.396755,
+    "speed": 4.17,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:08:38.000Z"
+  },
+  {
+    "latitude": 23.215826,
+    "longitude": 77.39725,
+    "speed": 3.93,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:08:48.000Z"
+  },
+  {
+    "latitude": 23.217313,
+    "longitude": 77.39555,
+    "speed": 3.92,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:08:58.000Z"
+  },
+  {
+    "latitude": 23.215925,
+    "longitude": 77.396943,
+    "speed": 3.36,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:09:08.000Z"
+  },
+  {
+    "latitude": 23.215961,
+    "longitude": 77.395805,
+    "speed": 1.93,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:09:18.000Z"
+  },
+  {
+    "latitude": 23.215804,
+    "longitude": 77.395694,
+    "speed": 3.3,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:09:28.000Z"
+  },
+  {
+    "latitude": 23.216953,
+    "longitude": 77.397312,
+    "speed": 3.07,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:09:38.000Z"
+  },
+  {
+    "latitude": 23.216261,
+    "longitude": 77.395729,
+    "speed": 4.47,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:09:48.000Z"
+  },
+  {
+    "latitude": 23.217467,
+    "longitude": 77.397305,
+    "speed": 1.07,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:09:58.000Z"
+  },
+  {
+    "latitude": 23.216818,
+    "longitude": 77.396892,
+    "speed": 3.84,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:10:08.000Z"
+  },
+  {
+    "latitude": 23.216453,
+    "longitude": 77.396009,
+    "speed": 4.79,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:10:18.000Z"
+  },
+  {
+    "latitude": 23.216745,
+    "longitude": 77.396576,
+    "speed": 1.52,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T02:40:12.000Z"
+  },
+  {
+    "latitude": 23.216881,
+    "longitude": 77.396576,
+    "speed": 1.44,
+    "battery": 0,
+    "satellites": 0,
+    "timestamp": "2026-08-13T02:40:12.000Z"
+  },
+  {
+    "latitude": 23.217166,
+    "longitude": 77.396778,
+    "speed": 0.9,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:10:28.000Z"
+  },
+  {
+    "latitude": 23.217717,
+    "longitude": 77.397075,
+    "speed": 2.18,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:10:38.000Z"
+  },
+  {
+    "latitude": 23.217522,
+    "longitude": 77.397393,
+    "speed": 3.72,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:10:48.000Z"
+  },
+  {
+    "latitude": 23.216024,
+    "longitude": 77.396522,
+    "speed": 0.82,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:10:58.000Z"
+  },
+  {
+    "latitude": 23.216278,
+    "longitude": 77.396626,
+    "speed": 0.61,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:11:08.000Z"
+  },
+  {
+    "latitude": 23.215999,
+    "longitude": 77.396377,
+    "speed": 3.04,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:11:18.000Z"
+  },
+  {
+    "latitude": 23.217625,
+    "longitude": 77.397401,
+    "speed": 3.41,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:11:28.000Z"
+  },
+  {
+    "latitude": 23.217625,
+    "longitude": 77.397401,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T02:41:25.000Z"
+  },
+  {
+    "latitude": 23.215789,
+    "longitude": 77.39687,
+    "speed": 0.37,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:11:38.000Z"
+  },
+  {
+    "latitude": 23.216412,
+    "longitude": 77.39557,
+    "speed": 3.11,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:11:48.000Z"
+  },
+  {
+    "latitude": 23.217641,
+    "longitude": 77.396035,
+    "speed": 0.62,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:11:58.000Z"
+  },
+  {
+    "latitude": 23.215839,
+    "longitude": 77.397356,
+    "speed": 2.57,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:12:08.000Z"
+  },
+  {
+    "latitude": 23.217433,
+    "longitude": 77.397338,
+    "speed": 3.08,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:12:18.000Z"
+  },
+  {
+    "latitude": 23.21735,
+    "longitude": 77.397323,
+    "speed": 0.13,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:12:28.000Z"
+  },
+  {
+    "latitude": 23.21703,
+    "longitude": 77.397284,
+    "speed": 1.62,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:12:38.000Z"
+  },
+  {
+    "latitude": 23.21703,
+    "longitude": 77.397284,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T02:42:36.000Z"
+  },
+  {
+    "latitude": 23.21731,
+    "longitude": 77.397273,
+    "speed": 3.7,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:12:48.000Z"
+  },
+  {
+    "latitude": 23.215974,
+    "longitude": 77.396224,
+    "speed": 1.76,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:12:58.000Z"
+  },
+  {
+    "latitude": 23.217598,
+    "longitude": 77.396503,
+    "speed": 0.58,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:13:08.000Z"
+  },
+  {
+    "latitude": 23.215863,
+    "longitude": 77.395911,
+    "speed": 0.81,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:13:18.000Z"
+  },
+  {
+    "latitude": 23.2177,
+    "longitude": 77.396114,
+    "speed": 1.87,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:13:28.000Z"
+  },
+  {
+    "latitude": 23.216199,
+    "longitude": 77.396468,
+    "speed": 0.93,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:13:38.000Z"
+  },
+  {
+    "latitude": 23.215919,
+    "longitude": 77.397444,
+    "speed": 3.72,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:13:48.000Z"
+  },
+  {
+    "latitude": 23.217289,
+    "longitude": 77.397044,
+    "speed": 0.01,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:13:58.000Z"
+  },
+  {
+    "latitude": 23.215883,
+    "longitude": 77.395674,
+    "speed": 4.29,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:14:08.000Z"
+  },
+  {
+    "latitude": 23.216283,
+    "longitude": 77.397043,
+    "speed": 3.36,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:14:18.000Z"
+  },
+  {
+    "latitude": 23.216341,
+    "longitude": 77.396929,
+    "speed": 4.63,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:14:28.000Z"
+  },
+  {
+    "latitude": 23.217044,
+    "longitude": 77.397042,
+    "speed": 3.12,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:14:38.000Z"
+  },
+  {
+    "latitude": 23.216361,
+    "longitude": 77.395825,
+    "speed": 1.65,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:14:48.000Z"
+  },
+  {
+    "latitude": 23.217149,
+    "longitude": 77.396987,
+    "speed": 2.3,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:14:58.000Z"
+  },
+  {
+    "latitude": 23.215986,
+    "longitude": 77.396359,
+    "speed": 3.16,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:15:08.000Z"
+  },
+  {
+    "latitude": 23.216663,
+    "longitude": 77.39666,
+    "speed": 2.52,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T02:45:02.000Z"
+  },
+  {
+    "latitude": 23.216663,
+    "longitude": 77.39666,
+    "speed": 0,
+    "battery": 0,
+    "satellites": 0,
+    "timestamp": "2026-08-13T02:45:02.000Z"
+  },
+  {
+    "latitude": 23.216128,
+    "longitude": 77.396351,
+    "speed": 1.18,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:15:18.000Z"
+  },
+  {
+    "latitude": 23.21586,
+    "longitude": 77.39657,
+    "speed": 0.55,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:15:28.000Z"
+  },
+  {
+    "latitude": 23.21624,
+    "longitude": 77.397033,
+    "speed": 2.46,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:15:38.000Z"
+  },
+  {
+    "latitude": 23.217636,
+    "longitude": 77.396477,
+    "speed": 3.16,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:15:48.000Z"
+  },
+  {
+    "latitude": 23.217117,
+    "longitude": 77.395553,
+    "speed": 0.58,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:15:58.000Z"
+  },
+  {
+    "latitude": 23.21663,
+    "longitude": 77.396722,
+    "speed": 0.58,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:16:08.000Z"
+  },
+  {
+    "latitude": 23.216379,
+    "longitude": 77.396122,
+    "speed": 2.28,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:16:18.000Z"
+  },
+  {
+    "latitude": 23.216982,
+    "longitude": 77.396446,
+    "speed": 2.52,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T02:45:02.000Z"
+  },
+  {
+    "latitude": 23.215833,
+    "longitude": 77.396576,
+    "speed": 0.63,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:16:28.000Z"
+  },
+  {
+    "latitude": 23.216611,
+    "longitude": 77.396477,
+    "speed": 3.84,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:16:38.000Z"
+  },
+  {
+    "latitude": 23.217673,
+    "longitude": 77.397405,
+    "speed": 2.46,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:16:48.000Z"
+  },
+  {
+    "latitude": 23.215902,
+    "longitude": 77.39613,
+    "speed": 0.64,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:16:58.000Z"
+  },
+  {
+    "latitude": 23.216067,
+    "longitude": 77.397069,
+    "speed": 4.44,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:17:08.000Z"
+  },
+  {
+    "latitude": 23.216863,
+    "longitude": 77.39727,
+    "speed": 0.05,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:17:18.000Z"
+  },
+  {
+    "latitude": 23.216265,
+    "longitude": 77.395943,
+    "speed": 3.08,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:17:28.000Z"
+  },
+  {
+    "latitude": 23.215951,
+    "longitude": 77.395794,
+    "speed": 1.22,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:17:38.000Z"
+  },
+  {
+    "latitude": 23.217377,
+    "longitude": 77.396192,
+    "speed": 2.5,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:17:48.000Z"
+  },
+  {
+    "latitude": 23.216523,
+    "longitude": 77.396156,
+    "speed": 4.56,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:17:58.000Z"
+  },
+  {
+    "latitude": 23.217337,
+    "longitude": 77.3961,
+    "speed": 3.85,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:18:08.000Z"
+  },
+  {
+    "latitude": 23.217603,
+    "longitude": 77.395862,
+    "speed": 2.26,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:18:18.000Z"
+  },
+  {
+    "latitude": 23.216875,
+    "longitude": 77.395908,
+    "speed": 3.62,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:18:28.000Z"
+  },
+  {
+    "latitude": 23.216698,
+    "longitude": 77.396355,
+    "speed": 1.78,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:18:38.000Z"
+  },
+  {
+    "latitude": 23.217623,
+    "longitude": 77.396006,
+    "speed": 2.35,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:18:48.000Z"
+  },
+  {
+    "latitude": 23.216991,
+    "longitude": 77.396584,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 5,
+    "timestamp": "2026-08-13T02:48:47.000Z"
+  },
+  {
+    "latitude": 23.216412,
+    "longitude": 77.395704,
+    "speed": 2.66,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:18:58.000Z"
+  },
+  {
+    "latitude": 23.216412,
+    "longitude": 77.395704,
+    "speed": 0,
+    "battery": 0,
+    "satellites": 0,
+    "timestamp": "2026-08-13T02:48:47.000Z"
+  },
+  {
+    "latitude": 23.216749,
+    "longitude": 77.397258,
+    "speed": 3.47,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:19:08.000Z"
+  },
+  {
+    "latitude": 23.217703,
+    "longitude": 77.3959,
+    "speed": 0.66,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:19:18.000Z"
+  },
+  {
+    "latitude": 23.217134,
+    "longitude": 77.39709,
+    "speed": 3.41,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:19:28.000Z"
+  },
+  {
+    "latitude": 23.217708,
+    "longitude": 77.396776,
+    "speed": 1.43,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:19:38.000Z"
+  },
+  {
+    "latitude": 23.216368,
+    "longitude": 77.395982,
+    "speed": 3.93,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:19:48.000Z"
+  },
+  {
+    "latitude": 23.215747,
+    "longitude": 77.396859,
+    "speed": 2.56,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:19:58.000Z"
+  },
+  {
+    "latitude": 23.216772,
+    "longitude": 77.396637,
+    "speed": 0.22,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T02:50:00.000Z"
+  },
+  {
+    "latitude": 23.215744,
+    "longitude": 77.397077,
+    "speed": 3.7,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:20:08.000Z"
+  },
+  {
+    "latitude": 23.217387,
+    "longitude": 77.39578,
+    "speed": 2.67,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:20:18.000Z"
+  },
+  {
+    "latitude": 23.216425,
+    "longitude": 77.39685,
+    "speed": 0.93,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:20:28.000Z"
+  },
+  {
+    "latitude": 23.215992,
+    "longitude": 77.397057,
+    "speed": 0.47,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:20:38.000Z"
+  },
+  {
+    "latitude": 23.21684,
+    "longitude": 77.397323,
+    "speed": 0.86,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:20:48.000Z"
+  },
+  {
+    "latitude": 23.217634,
+    "longitude": 77.397162,
+    "speed": 4.29,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:20:58.000Z"
+  },
+  {
+    "latitude": 23.216525,
+    "longitude": 77.396077,
+    "speed": 3.99,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:21:08.000Z"
+  },
+  {
+    "latitude": 23.216925,
+    "longitude": 77.396561,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T02:51:08.000Z"
+  },
+  {
+    "latitude": 23.216502,
+    "longitude": 77.395948,
+    "speed": 0.69,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:21:18.000Z"
+  },
+  {
+    "latitude": 23.216219,
+    "longitude": 77.396671,
+    "speed": 2.67,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:21:28.000Z"
+  },
+  {
+    "latitude": 23.216876,
+    "longitude": 77.395558,
+    "speed": 3.1,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:21:38.000Z"
+  },
+  {
+    "latitude": 23.217493,
+    "longitude": 77.395918,
+    "speed": 4.55,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:21:48.000Z"
+  },
+  {
+    "latitude": 23.215971,
+    "longitude": 77.39604,
+    "speed": 0.08,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:21:58.000Z"
+  },
+  {
+    "latitude": 23.217349,
+    "longitude": 77.396167,
+    "speed": 0.17,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:22:08.000Z"
+  },
+  {
+    "latitude": 23.217342,
+    "longitude": 77.396101,
+    "speed": 3.27,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:22:18.000Z"
+  },
+  {
+    "latitude": 23.216846,
+    "longitude": 77.396629,
+    "speed": 4.37,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T02:52:17.000Z"
+  },
+  {
+    "latitude": 23.217504,
+    "longitude": 77.396383,
+    "speed": 1.58,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:22:28.000Z"
+  },
+  {
+    "latitude": 23.216612,
+    "longitude": 77.396196,
+    "speed": 2.43,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:22:38.000Z"
+  },
+  {
+    "latitude": 23.216111,
+    "longitude": 77.397357,
+    "speed": 1.46,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:22:48.000Z"
+  },
+  {
+    "latitude": 23.21721,
+    "longitude": 77.396707,
+    "speed": 3.24,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:22:58.000Z"
+  },
+  {
+    "latitude": 23.217578,
+    "longitude": 77.395629,
+    "speed": 3,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:23:08.000Z"
+  },
+  {
+    "latitude": 23.216617,
+    "longitude": 77.396059,
+    "speed": 2.28,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:23:18.000Z"
+  },
+  {
+    "latitude": 23.217231,
+    "longitude": 77.395971,
+    "speed": 4.83,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:23:28.000Z"
+  },
+  {
+    "latitude": 23.216976,
+    "longitude": 77.39653,
+    "speed": 3.46,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T02:53:25.000Z"
+  },
+  {
+    "latitude": 23.216118,
+    "longitude": 77.397046,
+    "speed": 0.46,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:23:38.000Z"
+  },
+  {
+    "latitude": 23.217156,
+    "longitude": 77.395554,
+    "speed": 4.93,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:23:48.000Z"
+  },
+  {
+    "latitude": 23.215736,
+    "longitude": 77.395577,
+    "speed": 4.99,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:23:58.000Z"
+  },
+  {
+    "latitude": 23.216023,
+    "longitude": 77.39617,
+    "speed": 2.67,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:24:08.000Z"
+  },
+  {
+    "latitude": 23.217302,
+    "longitude": 77.396576,
+    "speed": 1.94,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:24:18.000Z"
+  },
+  {
+    "latitude": 23.216401,
+    "longitude": 77.396931,
+    "speed": 2.67,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:24:28.000Z"
+  },
+  {
+    "latitude": 23.21604,
+    "longitude": 77.396149,
+    "speed": 4.5,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:24:38.000Z"
+  },
+  {
+    "latitude": 23.217083,
+    "longitude": 77.396538,
+    "speed": 0.33,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T02:54:34.000Z"
+  },
+  {
+    "latitude": 23.217437,
+    "longitude": 77.396228,
+    "speed": 0.85,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:24:48.000Z"
+  },
+  {
+    "latitude": 23.217404,
+    "longitude": 77.396175,
+    "speed": 4.97,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:24:58.000Z"
+  },
+  {
+    "latitude": 23.21657,
+    "longitude": 77.397094,
+    "speed": 0.89,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:25:09.000Z"
+  },
+  {
+    "latitude": 23.216782,
+    "longitude": 77.397308,
+    "speed": 2.62,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:25:19.000Z"
+  },
+  {
+    "latitude": 23.215884,
+    "longitude": 77.39655,
+    "speed": 2.21,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:25:29.000Z"
+  },
+  {
+    "latitude": 23.215961,
+    "longitude": 77.395705,
+    "speed": 0.82,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:25:39.000Z"
+  },
+  {
+    "latitude": 23.217654,
+    "longitude": 77.395903,
+    "speed": 1.7,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:25:49.000Z"
+  },
+  {
+    "latitude": 23.217529,
+    "longitude": 77.396746,
+    "speed": 3.04,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:25:59.000Z"
+  },
+  {
+    "latitude": 23.216402,
+    "longitude": 77.396534,
+    "speed": 0.79,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:26:09.000Z"
+  },
+  {
+    "latitude": 23.216469,
+    "longitude": 77.397232,
+    "speed": 0.31,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:26:19.000Z"
+  },
+  {
+    "latitude": 23.21747,
+    "longitude": 77.39559,
+    "speed": 2.84,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:26:29.000Z"
+  },
+  {
+    "latitude": 23.216419,
+    "longitude": 77.395603,
+    "speed": 3.52,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:26:39.000Z"
+  },
+  {
+    "latitude": 23.215878,
+    "longitude": 77.396146,
+    "speed": 3.98,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:26:49.000Z"
+  },
+  {
+    "latitude": 23.216803,
+    "longitude": 77.396605,
+    "speed": 1.06,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:26:59.000Z"
+  },
+  {
+    "latitude": 23.216833,
+    "longitude": 77.396568,
+    "speed": 0.22,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T02:56:57.000Z"
+  },
+  {
+    "latitude": 23.216792,
+    "longitude": 77.396565,
+    "speed": 1.61,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:27:09.000Z"
+  },
+  {
+    "latitude": 23.216792,
+    "longitude": 77.396565,
+    "speed": 0,
+    "battery": 0,
+    "satellites": 0,
+    "timestamp": "2026-08-13T02:56:57.000Z"
+  },
+  {
+    "latitude": 23.217575,
+    "longitude": 77.397437,
+    "speed": 4.05,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:27:19.000Z"
+  },
+  {
+    "latitude": 23.216249,
+    "longitude": 77.396247,
+    "speed": 4.21,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:27:29.000Z"
+  },
+  {
+    "latitude": 23.216024,
+    "longitude": 77.396896,
+    "speed": 2.79,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:27:39.000Z"
+  },
+  {
+    "latitude": 23.217718,
+    "longitude": 77.397072,
+    "speed": 3.42,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:27:49.000Z"
+  },
+  {
+    "latitude": 23.215946,
+    "longitude": 77.395535,
+    "speed": 1.44,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:27:59.000Z"
+  },
+  {
+    "latitude": 23.217201,
+    "longitude": 77.395642,
+    "speed": 3.1,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:28:09.000Z"
+  },
+  {
+    "latitude": 23.215987,
+    "longitude": 77.396303,
+    "speed": 3.28,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:28:19.000Z"
+  },
+  {
+    "latitude": 23.216949,
+    "longitude": 77.396729,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T02:58:12.000Z"
+  },
+  {
+    "latitude": 23.216327,
+    "longitude": 77.396348,
+    "speed": 3.43,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:28:29.000Z"
+  },
+  {
+    "latitude": 23.216274,
+    "longitude": 77.396946,
+    "speed": 0.25,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:28:39.000Z"
+  },
+  {
+    "latitude": 23.216617,
+    "longitude": 77.396685,
+    "speed": 1.28,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:28:49.000Z"
+  },
+  {
+    "latitude": 23.217665,
+    "longitude": 77.39597,
+    "speed": 1,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:28:59.000Z"
+  },
+  {
+    "latitude": 23.216076,
+    "longitude": 77.396936,
+    "speed": 1.7,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:29:09.000Z"
+  },
+  {
+    "latitude": 23.216582,
+    "longitude": 77.396757,
+    "speed": 4.85,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:29:19.000Z"
+  },
+  {
+    "latitude": 23.216696,
+    "longitude": 77.396561,
+    "speed": 3.24,
+    "battery": 100,
+    "satellites": 5,
+    "timestamp": "2026-08-13T02:59:20.000Z"
+  },
+  {
+    "latitude": 23.216114,
+    "longitude": 77.396583,
+    "speed": 1.38,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:29:29.000Z"
+  },
+  {
+    "latitude": 23.217702,
+    "longitude": 77.396556,
+    "speed": 0.67,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:29:39.000Z"
+  },
+  {
+    "latitude": 23.216447,
+    "longitude": 77.395562,
+    "speed": 2.91,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:29:49.000Z"
+  },
+  {
+    "latitude": 23.216722,
+    "longitude": 77.396168,
+    "speed": 2.03,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:29:59.000Z"
+  },
+  {
+    "latitude": 23.216414,
+    "longitude": 77.3969,
+    "speed": 0.03,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:30:09.000Z"
+  },
+  {
+    "latitude": 23.217464,
+    "longitude": 77.39592,
+    "speed": 3.1,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:30:19.000Z"
+  },
+  {
+    "latitude": 23.216888,
+    "longitude": 77.396126,
+    "speed": 2.54,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:30:29.000Z"
+  },
+  {
+    "latitude": 23.216963,
+    "longitude": 77.396545,
+    "speed": 0.2,
+    "battery": 100,
+    "satellites": 5,
+    "timestamp": "2026-08-13T03:00:29.000Z"
+  },
+  {
+    "latitude": 23.215891,
+    "longitude": 77.39629,
+    "speed": 1.66,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:30:39.000Z"
+  },
+  {
+    "latitude": 23.21773,
+    "longitude": 77.395879,
+    "speed": 0.68,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:30:49.000Z"
+  },
+  {
+    "latitude": 23.216334,
+    "longitude": 77.395666,
+    "speed": 4.48,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:30:59.000Z"
+  },
+  {
+    "latitude": 23.217255,
+    "longitude": 77.395847,
+    "speed": 3.47,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:31:09.000Z"
+  },
+  {
+    "latitude": 23.216143,
+    "longitude": 77.396172,
+    "speed": 4.88,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:31:19.000Z"
+  },
+  {
+    "latitude": 23.217124,
+    "longitude": 77.39748,
+    "speed": 4.44,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:31:29.000Z"
+  },
+  {
+    "latitude": 23.216422,
+    "longitude": 77.395721,
+    "speed": 0.21,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:31:39.000Z"
+  },
+  {
+    "latitude": 23.216926,
+    "longitude": 77.395767,
+    "speed": 3.81,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:31:49.000Z"
+  },
+  {
+    "latitude": 23.215926,
+    "longitude": 77.396972,
+    "speed": 0.85,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:31:59.000Z"
+  },
+  {
+    "latitude": 23.216699,
+    "longitude": 77.395908,
+    "speed": 2.59,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:32:09.000Z"
+  },
+  {
+    "latitude": 23.216349,
+    "longitude": 77.39571,
+    "speed": 3.29,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:32:19.000Z"
+  },
+  {
+    "latitude": 23.216339,
+    "longitude": 77.395944,
+    "speed": 1.07,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:32:29.000Z"
+  },
+  {
+    "latitude": 23.215747,
+    "longitude": 77.396033,
+    "speed": 1.74,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:32:39.000Z"
+  },
+  {
+    "latitude": 23.216246,
+    "longitude": 77.396792,
+    "speed": 2.88,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:32:49.000Z"
+  },
+  {
+    "latitude": 23.217085,
+    "longitude": 77.397485,
+    "speed": 0.86,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:32:59.000Z"
+  },
+  {
+    "latitude": 23.217213,
+    "longitude": 77.39674,
+    "speed": 2.6,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:33:09.000Z"
+  },
+  {
+    "latitude": 23.216455,
+    "longitude": 77.396717,
+    "speed": 3,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:33:19.000Z"
+  },
+  {
+    "latitude": 23.21644,
+    "longitude": 77.39632,
+    "speed": 0.88,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:33:29.000Z"
+  },
+  {
+    "latitude": 23.216571,
+    "longitude": 77.395787,
+    "speed": 4.95,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:33:39.000Z"
+  },
+  {
+    "latitude": 23.217055,
+    "longitude": 77.395849,
+    "speed": 0.07,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:33:49.000Z"
+  },
+  {
+    "latitude": 23.21667,
+    "longitude": 77.395743,
+    "speed": 3.56,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:33:59.000Z"
+  },
+  {
+    "latitude": 23.215745,
+    "longitude": 77.396292,
+    "speed": 3.19,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:34:09.000Z"
+  },
+  {
+    "latitude": 23.216367,
+    "longitude": 77.395668,
+    "speed": 3.65,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:34:19.000Z"
+  },
+  {
+    "latitude": 23.216818,
+    "longitude": 77.396568,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 5,
+    "timestamp": "2026-08-13T03:04:15.000Z"
+  },
+  {
+    "latitude": 23.216818,
+    "longitude": 77.396568,
+    "speed": 0,
+    "battery": 0,
+    "satellites": 0,
+    "timestamp": "2026-08-13T03:04:15.000Z"
+  },
+  {
+    "latitude": 23.216718,
+    "longitude": 77.397225,
+    "speed": 1.51,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:34:29.000Z"
+  },
+  {
+    "latitude": 23.217625,
+    "longitude": 77.395625,
+    "speed": 2.61,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:34:39.000Z"
+  },
+  {
+    "latitude": 23.216461,
+    "longitude": 77.395705,
+    "speed": 1.38,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:34:49.000Z"
+  },
+  {
+    "latitude": 23.217175,
+    "longitude": 77.395496,
+    "speed": 3.47,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:34:59.000Z"
+  },
+  {
+    "latitude": 23.216301,
+    "longitude": 77.396382,
+    "speed": 4.55,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:35:09.000Z"
+  },
+  {
+    "latitude": 23.216785,
+    "longitude": 77.39623,
+    "speed": 1.8,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:35:19.000Z"
+  },
+  {
+    "latitude": 23.216506,
+    "longitude": 77.396312,
+    "speed": 1.72,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:35:29.000Z"
+  },
+  {
+    "latitude": 23.217058,
+    "longitude": 77.396957,
+    "speed": 3.18,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:35:39.000Z"
+  },
+  {
+    "latitude": 23.217333,
+    "longitude": 77.396317,
+    "speed": 3.29,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:35:49.000Z"
+  },
+  {
+    "latitude": 23.216738,
+    "longitude": 77.396847,
+    "speed": 1.01,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:35:59.000Z"
+  },
+  {
+    "latitude": 23.217325,
+    "longitude": 77.396708,
+    "speed": 4.95,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:36:09.000Z"
+  },
+  {
+    "latitude": 23.216026,
+    "longitude": 77.396302,
+    "speed": 2.93,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:36:19.000Z"
+  },
+  {
+    "latitude": 23.216637,
+    "longitude": 77.395876,
+    "speed": 2.38,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:36:29.000Z"
+  },
+  {
+    "latitude": 23.216835,
+    "longitude": 77.396503,
+    "speed": 3.65,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:36:39.000Z"
+  },
+  {
+    "latitude": 23.216884,
+    "longitude": 77.396424,
+    "speed": 0.59,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:36:49.000Z"
+  },
+  {
+    "latitude": 23.217483,
+    "longitude": 77.397415,
+    "speed": 1.28,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:36:59.000Z"
+  },
+  {
+    "latitude": 23.216658,
+    "longitude": 77.396434,
+    "speed": 2.41,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:37:09.000Z"
+  },
+  {
+    "latitude": 23.216589,
+    "longitude": 77.396482,
+    "speed": 0.96,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:37:19.000Z"
+  },
+  {
+    "latitude": 23.217066,
+    "longitude": 77.396952,
+    "speed": 0.5,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:37:29.000Z"
+  },
+  {
+    "latitude": 23.217595,
+    "longitude": 77.396347,
+    "speed": 3.94,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:37:39.000Z"
+  },
+  {
+    "latitude": 23.217652,
+    "longitude": 77.396955,
+    "speed": 3.89,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:37:49.000Z"
+  },
+  {
+    "latitude": 23.216189,
+    "longitude": 77.397049,
+    "speed": 3.58,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:37:59.000Z"
+  },
+  {
+    "latitude": 23.216722,
+    "longitude": 77.396637,
+    "speed": 0.2,
+    "battery": 100,
+    "satellites": 5,
+    "timestamp": "2026-08-13T03:08:02.000Z"
+  },
+  {
+    "latitude": 23.21619,
+    "longitude": 77.395912,
+    "speed": 2.14,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:38:09.000Z"
+  },
+  {
+    "latitude": 23.216818,
+    "longitude": 77.396545,
+    "speed": 0,
+    "battery": 0,
+    "satellites": 0,
+    "timestamp": "2026-08-13T03:08:02.000Z"
+  },
+  {
+    "latitude": 23.216299,
+    "longitude": 77.397251,
+    "speed": 3.56,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:38:19.000Z"
+  },
+  {
+    "latitude": 23.217464,
+    "longitude": 77.396635,
+    "speed": 1.22,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:38:29.000Z"
+  },
+  {
+    "latitude": 23.217047,
+    "longitude": 77.397211,
+    "speed": 4.04,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:38:39.000Z"
+  },
+  {
+    "latitude": 23.21645,
+    "longitude": 77.39667,
+    "speed": 1.32,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:38:49.000Z"
+  },
+  {
+    "latitude": 23.216595,
+    "longitude": 77.396863,
+    "speed": 2.54,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:38:59.000Z"
+  },
+  {
+    "latitude": 23.216678,
+    "longitude": 77.397468,
+    "speed": 3.81,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:39:09.000Z"
+  },
+  {
+    "latitude": 23.216176,
+    "longitude": 77.397215,
+    "speed": 4.77,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:39:19.000Z"
+  },
+  {
+    "latitude": 23.216086,
+    "longitude": 77.396271,
+    "speed": 4.88,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:39:29.000Z"
+  },
+  {
+    "latitude": 23.216008,
+    "longitude": 77.397221,
+    "speed": 0.21,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:39:39.000Z"
+  },
+  {
+    "latitude": 23.21744,
+    "longitude": 77.396203,
+    "speed": 4.13,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:39:49.000Z"
+  },
+  {
+    "latitude": 23.216758,
+    "longitude": 77.397028,
+    "speed": 3.86,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:39:59.000Z"
+  },
+  {
+    "latitude": 23.217052,
+    "longitude": 77.396483,
+    "speed": 2.63,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:40:09.000Z"
+  },
+  {
+    "latitude": 23.216917,
+    "longitude": 77.396255,
+    "speed": 1.18,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:40:19.000Z"
+  },
+  {
+    "latitude": 23.216471,
+    "longitude": 77.397092,
+    "speed": 0.59,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:40:29.000Z"
+  },
+  {
+    "latitude": 23.217124,
+    "longitude": 77.395972,
+    "speed": 4.41,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:40:39.000Z"
+  },
+  {
+    "latitude": 23.216688,
+    "longitude": 77.396645,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 6,
+    "timestamp": "2026-08-13T03:10:31.000Z"
+  },
+  {
+    "latitude": 23.217706,
+    "longitude": 77.396765,
+    "speed": 0.27,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:40:49.000Z"
+  },
+  {
+    "latitude": 23.217309,
+    "longitude": 77.396342,
+    "speed": 3.21,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:40:59.000Z"
+  },
+  {
+    "latitude": 23.216309,
+    "longitude": 77.39614,
+    "speed": 4.67,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:41:09.000Z"
+  },
+  {
+    "latitude": 23.217703,
+    "longitude": 77.395899,
+    "speed": 4.95,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:41:19.000Z"
+  },
+  {
+    "latitude": 23.217583,
+    "longitude": 77.396562,
+    "speed": 0.49,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:41:29.000Z"
+  },
+  {
+    "latitude": 23.217279,
+    "longitude": 77.397103,
+    "speed": 0.18,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:41:39.000Z"
+  },
+  {
+    "latitude": 23.21608,
+    "longitude": 77.395627,
+    "speed": 2.55,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:41:49.000Z"
+  },
+  {
+    "latitude": 23.215834,
+    "longitude": 77.395704,
+    "speed": 3.01,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:41:59.000Z"
+  },
+  {
+    "latitude": 23.217128,
+    "longitude": 77.396697,
+    "speed": 4.46,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:42:09.000Z"
+  },
+  {
+    "latitude": 23.217002,
+    "longitude": 77.397386,
+    "speed": 4.61,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:42:19.000Z"
+  },
+  {
+    "latitude": 23.216428,
+    "longitude": 77.396838,
+    "speed": 4.04,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:42:29.000Z"
+  },
+  {
+    "latitude": 23.216139,
+    "longitude": 77.396104,
+    "speed": 1.17,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:42:39.000Z"
+  },
+  {
+    "latitude": 23.216116,
+    "longitude": 77.396638,
+    "speed": 0.8,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:42:49.000Z"
+  },
+  {
+    "latitude": 23.215841,
+    "longitude": 77.396446,
+    "speed": 0.27,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:42:59.000Z"
+  },
+  {
+    "latitude": 23.215781,
+    "longitude": 77.397183,
+    "speed": 1.62,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:43:09.000Z"
+  },
+  {
+    "latitude": 23.217501,
+    "longitude": 77.396178,
+    "speed": 1.76,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:43:19.000Z"
+  },
+  {
+    "latitude": 23.216404,
+    "longitude": 77.396971,
+    "speed": 2.7,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:43:29.000Z"
+  },
+  {
+    "latitude": 23.217236,
+    "longitude": 77.397225,
+    "speed": 3.11,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:43:39.000Z"
+  },
+  {
+    "latitude": 23.215879,
+    "longitude": 77.3972,
+    "speed": 4.09,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:43:49.000Z"
+  },
+  {
+    "latitude": 23.217507,
+    "longitude": 77.396795,
+    "speed": 3.65,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:43:59.000Z"
+  },
+  {
+    "latitude": 23.216508,
+    "longitude": 77.395924,
+    "speed": 2.97,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:44:09.000Z"
+  },
+  {
+    "latitude": 23.216373,
+    "longitude": 77.397294,
+    "speed": 3.75,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:44:19.000Z"
+  },
+  {
+    "latitude": 23.216199,
+    "longitude": 77.396836,
+    "speed": 4.61,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:44:29.000Z"
+  },
+  {
+    "latitude": 23.216768,
+    "longitude": 77.396561,
+    "speed": 3.78,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T03:14:31.000Z"
+  },
+  {
+    "latitude": 23.215843,
+    "longitude": 77.396525,
+    "speed": 0.67,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:44:39.000Z"
+  },
+  {
+    "latitude": 23.215843,
+    "longitude": 77.396525,
+    "speed": 0,
+    "battery": 0,
+    "satellites": 0,
+    "timestamp": "2026-08-13T03:14:31.000Z"
+  },
+  {
+    "latitude": 23.216238,
+    "longitude": 77.39663,
+    "speed": 0.35,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:44:49.000Z"
+  },
+  {
+    "latitude": 23.21589,
+    "longitude": 77.397255,
+    "speed": 4.94,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:44:59.000Z"
+  },
+  {
+    "latitude": 23.217012,
+    "longitude": 77.396048,
+    "speed": 1.2,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:45:09.000Z"
+  },
+  {
+    "latitude": 23.217366,
+    "longitude": 77.395685,
+    "speed": 0.35,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:45:19.000Z"
+  },
+  {
+    "latitude": 23.217181,
+    "longitude": 77.397355,
+    "speed": 4.64,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:45:29.000Z"
+  },
+  {
+    "latitude": 23.21758,
+    "longitude": 77.396621,
+    "speed": 2.72,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:45:39.000Z"
+  },
+  {
+    "latitude": 23.216126,
+    "longitude": 77.396629,
+    "speed": 1.89,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:45:49.000Z"
+  },
+  {
+    "latitude": 23.216172,
+    "longitude": 77.396633,
+    "speed": 3.89,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:45:59.000Z"
+  },
+  {
+    "latitude": 23.216948,
+    "longitude": 77.397364,
+    "speed": 0.44,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:46:09.000Z"
+  },
+  {
+    "latitude": 23.216797,
+    "longitude": 77.395695,
+    "speed": 1.14,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:46:19.000Z"
+  },
+  {
+    "latitude": 23.217107,
+    "longitude": 77.396907,
+    "speed": 4.98,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:46:30.000Z"
+  },
+  {
+    "latitude": 23.216962,
+    "longitude": 77.397178,
+    "speed": 0.6,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:46:40.000Z"
+  },
+  {
+    "latitude": 23.216862,
+    "longitude": 77.395817,
+    "speed": 4.47,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:46:50.000Z"
+  },
+  {
+    "latitude": 23.215934,
+    "longitude": 77.396284,
+    "speed": 1.32,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:47:00.000Z"
+  },
+  {
+    "latitude": 23.216229,
+    "longitude": 77.397013,
+    "speed": 0.33,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:47:10.000Z"
+  },
+  {
+    "latitude": 23.216795,
+    "longitude": 77.396622,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 5,
+    "timestamp": "2026-08-13T03:17:06.000Z"
+  },
+  {
+    "latitude": 23.216858,
+    "longitude": 77.396622,
+    "speed": 0,
+    "battery": 0,
+    "satellites": 0,
+    "timestamp": "2026-08-13T03:17:06.000Z"
+  },
+  {
+    "latitude": 23.215946,
+    "longitude": 77.397056,
+    "speed": 3.85,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:47:20.000Z"
+  },
+  {
+    "latitude": 23.216044,
+    "longitude": 77.39666,
+    "speed": 1.58,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:47:30.000Z"
+  },
+  {
+    "latitude": 23.2168,
+    "longitude": 77.395754,
+    "speed": 0.69,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:47:40.000Z"
+  },
+  {
+    "latitude": 23.215752,
+    "longitude": 77.396159,
+    "speed": 0.88,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:47:50.000Z"
+  },
+  {
+    "latitude": 23.217504,
+    "longitude": 77.397055,
+    "speed": 3.86,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:48:00.000Z"
+  },
+  {
+    "latitude": 23.215908,
+    "longitude": 77.396414,
+    "speed": 1.52,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:48:10.000Z"
+  },
+  {
+    "latitude": 23.217229,
+    "longitude": 77.397337,
+    "speed": 2.63,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:48:20.000Z"
+  },
+  {
+    "latitude": 23.216864,
+    "longitude": 77.396629,
+    "speed": 1.41,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T03:18:21.000Z"
+  },
+  {
+    "latitude": 23.216252,
+    "longitude": 77.397252,
+    "speed": 2.8,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:48:30.000Z"
+  },
+  {
+    "latitude": 23.216778,
+    "longitude": 77.396652,
+    "speed": 0,
+    "battery": 0,
+    "satellites": 0,
+    "timestamp": "2026-08-13T03:18:21.000Z"
+  },
+  {
+    "latitude": 23.217277,
+    "longitude": 77.395878,
+    "speed": 2.78,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:48:40.000Z"
+  },
+  {
+    "latitude": 23.2167,
+    "longitude": 77.39632,
+    "speed": 3.69,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:48:50.000Z"
+  },
+  {
+    "latitude": 23.217604,
+    "longitude": 77.397438,
+    "speed": 0.62,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:49:00.000Z"
+  },
+  {
+    "latitude": 23.216914,
+    "longitude": 77.397323,
+    "speed": 0.39,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:49:10.000Z"
+  },
+  {
+    "latitude": 23.217474,
+    "longitude": 77.396867,
+    "speed": 1.28,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:49:20.000Z"
+  },
+  {
+    "latitude": 23.216019,
+    "longitude": 77.39702,
+    "speed": 2.33,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:49:30.000Z"
+  },
+  {
+    "latitude": 23.216801,
+    "longitude": 77.39643,
+    "speed": 4.36,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:49:40.000Z"
+  },
+  {
+    "latitude": 23.216846,
+    "longitude": 77.396652,
+    "speed": 1.41,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T03:18:21.000Z"
+  },
+  {
+    "latitude": 23.215867,
+    "longitude": 77.396219,
+    "speed": 0.22,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:49:50.000Z"
+  },
+  {
+    "latitude": 23.215867,
+    "longitude": 77.396219,
+    "speed": 0,
+    "battery": 0,
+    "satellites": 0,
+    "timestamp": "2026-08-13T03:18:21.000Z"
+  },
+  {
+    "latitude": 23.215768,
+    "longitude": 77.396749,
+    "speed": 2.78,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:50:00.000Z"
+  },
+  {
+    "latitude": 23.217729,
+    "longitude": 77.396577,
+    "speed": 0.66,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:50:10.000Z"
+  },
+  {
+    "latitude": 23.215878,
+    "longitude": 77.396812,
+    "speed": 0.95,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:50:20.000Z"
+  },
+  {
+    "latitude": 23.216046,
+    "longitude": 77.397343,
+    "speed": 1.16,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:50:30.000Z"
+  },
+  {
+    "latitude": 23.216588,
+    "longitude": 77.397091,
+    "speed": 4.27,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:50:40.000Z"
+  },
+  {
+    "latitude": 23.216776,
+    "longitude": 77.396838,
+    "speed": 1.78,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:50:50.000Z"
+  },
+  {
+    "latitude": 23.216776,
+    "longitude": 77.396838,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T03:20:51.000Z"
+  },
+  {
+    "latitude": 23.216513,
+    "longitude": 77.395561,
+    "speed": 1.68,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:51:00.000Z"
+  },
+  {
+    "latitude": 23.21656,
+    "longitude": 77.397399,
+    "speed": 4.27,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:51:10.000Z"
+  },
+  {
+    "latitude": 23.216682,
+    "longitude": 77.396625,
+    "speed": 4.07,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:51:20.000Z"
+  },
+  {
+    "latitude": 23.21712,
+    "longitude": 77.396408,
+    "speed": 2.52,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:51:30.000Z"
+  },
+  {
+    "latitude": 23.21763,
+    "longitude": 77.397088,
+    "speed": 0.86,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:51:40.000Z"
+  },
+  {
+    "latitude": 23.217501,
+    "longitude": 77.397434,
+    "speed": 4.34,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:51:50.000Z"
+  },
+  {
+    "latitude": 23.21641,
+    "longitude": 77.396071,
+    "speed": 3.02,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:52:00.000Z"
+  },
+  {
+    "latitude": 23.217416,
+    "longitude": 77.397052,
+    "speed": 2.66,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:52:10.000Z"
+  },
+  {
+    "latitude": 23.216929,
+    "longitude": 77.395914,
+    "speed": 3.72,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:52:20.000Z"
+  },
+  {
+    "latitude": 23.216722,
+    "longitude": 77.396584,
+    "speed": 2.33,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T03:22:13.000Z"
+  },
+  {
+    "latitude": 23.216637,
+    "longitude": 77.396591,
+    "speed": 0,
+    "battery": 0,
+    "satellites": 0,
+    "timestamp": "2026-08-13T03:22:13.000Z"
+  },
+  {
+    "latitude": 23.217497,
+    "longitude": 77.395615,
+    "speed": 0.02,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:52:30.000Z"
+  },
+  {
+    "latitude": 23.216835,
+    "longitude": 77.397289,
+    "speed": 4.05,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:52:40.000Z"
+  },
+  {
+    "latitude": 23.216275,
+    "longitude": 77.397322,
+    "speed": 2.25,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:52:50.000Z"
+  },
+  {
+    "latitude": 23.216682,
+    "longitude": 77.397329,
+    "speed": 3.54,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:53:00.000Z"
+  },
+  {
+    "latitude": 23.21693,
+    "longitude": 77.396555,
+    "speed": 4.15,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:53:10.000Z"
+  },
+  {
+    "latitude": 23.216542,
+    "longitude": 77.396347,
+    "speed": 1.88,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:53:20.000Z"
+  },
+  {
+    "latitude": 23.217185,
+    "longitude": 77.396479,
+    "speed": 2.5,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:53:30.000Z"
+  },
+  {
+    "latitude": 23.217203,
+    "longitude": 77.395596,
+    "speed": 0.97,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:53:40.000Z"
+  },
+  {
+    "latitude": 23.21651,
+    "longitude": 77.396807,
+    "speed": 3.07,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:53:50.000Z"
+  },
+  {
+    "latitude": 23.215904,
+    "longitude": 77.395945,
+    "speed": 1.22,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:54:00.000Z"
+  },
+  {
+    "latitude": 23.217373,
+    "longitude": 77.396747,
+    "speed": 1.78,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:54:10.000Z"
+  },
+  {
+    "latitude": 23.216032,
+    "longitude": 77.396473,
+    "speed": 3.58,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:54:20.000Z"
+  },
+  {
+    "latitude": 23.217687,
+    "longitude": 77.395727,
+    "speed": 2.37,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:54:30.000Z"
+  },
+  {
+    "latitude": 23.216668,
+    "longitude": 77.396259,
+    "speed": 4.92,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:54:40.000Z"
+  },
+  {
+    "latitude": 23.215811,
+    "longitude": 77.397158,
+    "speed": 1.28,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:54:50.000Z"
+  },
+  {
+    "latitude": 23.215811,
+    "longitude": 77.397158,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T03:24:45.000Z"
+  },
+  {
+    "latitude": 23.216889,
+    "longitude": 77.397307,
+    "speed": 1.14,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:55:00.000Z"
+  },
+  {
+    "latitude": 23.216889,
+    "longitude": 77.397307,
+    "speed": 0,
+    "battery": 0,
+    "satellites": 0,
+    "timestamp": "2026-08-13T03:24:45.000Z"
+  },
+  {
+    "latitude": 23.215938,
+    "longitude": 77.397133,
+    "speed": 2.64,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:55:10.000Z"
+  },
+  {
+    "latitude": 23.216326,
+    "longitude": 77.395542,
+    "speed": 4.71,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:55:20.000Z"
+  },
+  {
+    "latitude": 23.216938,
+    "longitude": 77.39749,
+    "speed": 0.87,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:55:30.000Z"
+  },
+  {
+    "latitude": 23.216382,
+    "longitude": 77.395591,
+    "speed": 4.16,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:55:40.000Z"
+  },
+  {
+    "latitude": 23.215744,
+    "longitude": 77.397045,
+    "speed": 0.35,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:55:50.000Z"
+  },
+  {
+    "latitude": 23.216701,
+    "longitude": 77.396114,
+    "speed": 4.01,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:56:00.000Z"
+  },
+  {
+    "latitude": 23.21679,
+    "longitude": 77.39573,
+    "speed": 1.38,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:56:10.000Z"
+  },
+  {
+    "latitude": 23.21679,
+    "longitude": 77.39573,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T03:26:02.000Z"
+  },
+  {
+    "latitude": 23.21679,
+    "longitude": 77.39573,
+    "speed": 0,
+    "battery": 0,
+    "satellites": 0,
+    "timestamp": "2026-08-13T03:26:02.000Z"
+  },
+  {
+    "latitude": 23.216089,
+    "longitude": 77.396742,
+    "speed": 4.79,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:56:20.000Z"
+  },
+  {
+    "latitude": 23.215755,
+    "longitude": 77.396856,
+    "speed": 2.81,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:56:30.000Z"
+  },
+  {
+    "latitude": 23.216138,
+    "longitude": 77.39712,
+    "speed": 2.92,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:56:40.000Z"
+  },
+  {
+    "latitude": 23.217305,
+    "longitude": 77.396297,
+    "speed": 4.17,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:56:50.000Z"
+  },
+  {
+    "latitude": 23.216427,
+    "longitude": 77.39589,
+    "speed": 1.29,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:57:00.000Z"
+  },
+  {
+    "latitude": 23.216669,
+    "longitude": 77.396291,
+    "speed": 0.12,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:57:10.000Z"
+  },
+  {
+    "latitude": 23.216098,
+    "longitude": 77.396364,
+    "speed": 0.05,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:57:20.000Z"
+  },
+  {
+    "latitude": 23.216098,
+    "longitude": 77.396364,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T03:27:17.000Z"
+  },
+  {
+    "latitude": 23.216404,
+    "longitude": 77.397363,
+    "speed": 2.24,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:57:30.000Z"
+  },
+  {
+    "latitude": 23.216668,
+    "longitude": 77.396918,
+    "speed": 4.57,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:57:40.000Z"
+  },
+  {
+    "latitude": 23.217448,
+    "longitude": 77.396524,
+    "speed": 1.89,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:57:50.000Z"
+  },
+  {
+    "latitude": 23.216216,
+    "longitude": 77.395582,
+    "speed": 0.44,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:58:00.000Z"
+  },
+  {
+    "latitude": 23.216312,
+    "longitude": 77.396408,
+    "speed": 3.61,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:58:10.000Z"
+  },
+  {
+    "latitude": 23.216643,
+    "longitude": 77.395541,
+    "speed": 2.56,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:58:20.000Z"
+  },
+  {
+    "latitude": 23.216256,
+    "longitude": 77.396522,
+    "speed": 1.92,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:58:30.000Z"
+  },
+  {
+    "latitude": 23.216256,
+    "longitude": 77.396522,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T03:28:26.000Z"
+  },
+  {
+    "latitude": 23.215881,
+    "longitude": 77.39742,
+    "speed": 0.48,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:58:40.000Z"
+  },
+  {
+    "latitude": 23.217559,
+    "longitude": 77.396517,
+    "speed": 2.21,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:58:50.000Z"
+  },
+  {
+    "latitude": 23.216536,
+    "longitude": 77.396815,
+    "speed": 1.55,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:59:00.000Z"
+  },
+  {
+    "latitude": 23.216656,
+    "longitude": 77.396841,
+    "speed": 2.11,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:59:10.000Z"
+  },
+  {
+    "latitude": 23.216012,
+    "longitude": 77.397018,
+    "speed": 4.93,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:59:20.000Z"
+  },
+  {
+    "latitude": 23.215969,
+    "longitude": 77.397078,
+    "speed": 3.56,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:59:30.000Z"
+  },
+  {
+    "latitude": 23.217626,
+    "longitude": 77.396552,
+    "speed": 3.48,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:59:40.000Z"
+  },
+  {
+    "latitude": 23.217626,
+    "longitude": 77.396552,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T03:29:36.000Z"
+  },
+  {
+    "latitude": 23.21634,
+    "longitude": 77.395562,
+    "speed": 1.75,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T08:59:50.000Z"
+  },
+  {
+    "latitude": 23.215793,
+    "longitude": 77.396286,
+    "speed": 1.57,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:00:00.000Z"
+  },
+  {
+    "latitude": 23.216366,
+    "longitude": 77.39732,
+    "speed": 0.17,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:00:10.000Z"
+  },
+  {
+    "latitude": 23.217483,
+    "longitude": 77.396268,
+    "speed": 4.21,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:00:20.000Z"
+  },
+  {
+    "latitude": 23.217627,
+    "longitude": 77.396688,
+    "speed": 3.45,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:00:30.000Z"
+  },
+  {
+    "latitude": 23.216621,
+    "longitude": 77.395709,
+    "speed": 0.46,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:00:40.000Z"
+  },
+  {
+    "latitude": 23.217696,
+    "longitude": 77.396497,
+    "speed": 0.25,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:00:50.000Z"
+  },
+  {
+    "latitude": 23.217696,
+    "longitude": 77.396497,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T03:30:45.000Z"
+  },
+  {
+    "latitude": 23.217672,
+    "longitude": 77.39739,
+    "speed": 4.54,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:01:00.000Z"
+  },
+  {
+    "latitude": 23.217088,
+    "longitude": 77.395538,
+    "speed": 3.35,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:01:10.000Z"
+  },
+  {
+    "latitude": 23.216301,
+    "longitude": 77.395835,
+    "speed": 1.44,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:01:20.000Z"
+  },
+  {
+    "latitude": 23.217273,
+    "longitude": 77.396823,
+    "speed": 4.02,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:01:30.000Z"
+  },
+  {
+    "latitude": 23.215962,
+    "longitude": 77.396702,
+    "speed": 3.37,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:01:40.000Z"
+  },
+  {
+    "latitude": 23.216568,
+    "longitude": 77.395755,
+    "speed": 1.87,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:01:50.000Z"
+  },
+  {
+    "latitude": 23.215897,
+    "longitude": 77.396823,
+    "speed": 0.73,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:02:00.000Z"
+  },
+  {
+    "latitude": 23.216116,
+    "longitude": 77.395818,
+    "speed": 4.84,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:02:10.000Z"
+  },
+  {
+    "latitude": 23.217263,
+    "longitude": 77.395991,
+    "speed": 3.51,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:02:20.000Z"
+  },
+  {
+    "latitude": 23.217417,
+    "longitude": 77.397338,
+    "speed": 4.88,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:02:30.000Z"
+  },
+  {
+    "latitude": 23.216173,
+    "longitude": 77.396195,
+    "speed": 3.27,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:02:40.000Z"
+  },
+  {
+    "latitude": 23.217334,
+    "longitude": 77.395608,
+    "speed": 2.91,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:02:50.000Z"
+  },
+  {
+    "latitude": 23.216523,
+    "longitude": 77.397247,
+    "speed": 4.44,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:03:00.000Z"
+  },
+  {
+    "latitude": 23.21578,
+    "longitude": 77.39606,
+    "speed": 2.27,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:03:10.000Z"
+  },
+  {
+    "latitude": 23.216785,
+    "longitude": 77.396538,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T03:33:11.000Z"
+  },
+  {
+    "latitude": 23.216456,
+    "longitude": 77.396149,
+    "speed": 0.06,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:03:20.000Z"
+  },
+  {
+    "latitude": 23.216456,
+    "longitude": 77.396149,
+    "speed": 0,
+    "battery": 0,
+    "satellites": 0,
+    "timestamp": "2026-08-13T03:33:11.000Z"
+  },
+  {
+    "latitude": 23.215845,
+    "longitude": 77.395707,
+    "speed": 1.86,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:03:30.000Z"
+  },
+  {
+    "latitude": 23.217636,
+    "longitude": 77.39568,
+    "speed": 3.37,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:03:40.000Z"
+  },
+  {
+    "latitude": 23.217446,
+    "longitude": 77.395712,
+    "speed": 2.73,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:03:50.000Z"
+  },
+  {
+    "latitude": 23.217304,
+    "longitude": 77.396516,
+    "speed": 2.65,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:04:00.000Z"
+  },
+  {
+    "latitude": 23.216667,
+    "longitude": 77.39726,
+    "speed": 4.49,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:04:10.000Z"
+  },
+  {
+    "latitude": 23.216222,
+    "longitude": 77.396767,
+    "speed": 0.14,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:04:20.000Z"
+  },
+  {
+    "latitude": 23.216715,
+    "longitude": 77.395849,
+    "speed": 1.47,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:04:30.000Z"
+  },
+  {
+    "latitude": 23.21677,
+    "longitude": 77.396591,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 7,
+    "timestamp": "2026-08-13T03:34:27.000Z"
+  },
+  {
+    "latitude": 23.21574,
+    "longitude": 77.396932,
+    "speed": 0.14,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:04:40.000Z"
+  },
+  {
+    "latitude": 23.216357,
+    "longitude": 77.396613,
+    "speed": 0.2,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:04:50.000Z"
+  },
+  {
+    "latitude": 23.217672,
+    "longitude": 77.395536,
+    "speed": 1.36,
+    "battery": 20,
+    "satellites": 8,
+    "timestamp": "2026-08-13T09:05:00.000Z"
+  },
+  {
+    "latitude": 23.216648,
+    "longitude": 77.396721,
+    "speed": 3.74,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T04:19:36.000Z"
+  },
+  {
+    "latitude": 23.216648,
+    "longitude": 77.396721,
+    "speed": 0,
+    "battery": 100,
+    "satellites": 3,
+    "timestamp": "2026-08-13T04:20:46.000Z"
+  },
+  {
+    "latitude": 23.216745,
+    "longitude": 77.396584,
+    "speed": 0.2,
+    "battery": 100,
+    "satellites": 5,
+    "timestamp": "2026-08-13T04:21:55.000Z"
+  },
+  {
+    "latitude": 23.216692,
+    "longitude": 77.396561,
+    "speed": 0.19,
+    "battery": 100,
+    "satellites": 4,
+    "timestamp": "2026-08-13T04:23:03.000Z"
+  }
+]

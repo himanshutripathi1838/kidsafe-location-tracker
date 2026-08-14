@@ -1,0 +1,32 @@
+const fs = require('fs');
+const path = require('path');
+
+const assetsDir = path.join(__dirname, 'assets');
+if (!fs.existsSync(assetsDir)) {
+  fs.mkdirSync(assetsDir, { recursive: true });
+}
+
+// Generate SVG file for Prudent Systems Logo
+const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <g transform="translate(40, 60)">
+    <!-- Sunburst Wedges -->
+    <path d="M 140 140 L 40 120 A 110 110 0 0 1 50 84 Z" fill="#E64A19"/>
+    <path d="M 140 140 L 54 72 A 110 110 0 0 1 80 40 Z" fill="#E64A19"/>
+    <path d="M 140 140 L 88 30 A 110 110 0 0 1 122 10 Z" fill="#E64A19"/>
+    <path d="M 140 140 L 132 2 A 110 110 0 0 1 170 0 Z" fill="#E64A19"/>
+    <path d="M 140 140 L 180 4 A 110 110 0 0 1 214 18 Z" fill="#E64A19"/>
+
+    <path d="M 140 140 L 40 132 A 110 110 0 0 0 46 168 Z" fill="#E64A19"/>
+    <path d="M 140 140 L 54 180 A 110 110 0 0 0 78 212 Z" fill="#E64A19"/>
+    <path d="M 140 140 L 88 222 A 110 110 0 0 0 126 244 Z" fill="#E64A19"/>
+    <path d="M 140 140 L 136 248 A 110 110 0 0 0 172 246 Z" fill="#E64A19"/>
+
+    <!-- Text -->
+    <text x="220" y="110" fill="#E64A19" font-size="44" font-weight="bold" font-family="Arial, sans-serif">Prudent</text>
+    <text x="220" y="170" fill="#E64A19" font-size="42" font-weight="600" font-family="Arial, sans-serif">Systems</text>
+  </g>
+</svg>`;
+
+fs.writeFileSync(path.join(assetsDir, 'prudent_logo.svg'), svgContent);
+console.log('SVG Logo created at assets/prudent_logo.svg');
