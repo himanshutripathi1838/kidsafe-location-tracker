@@ -101,6 +101,20 @@ io.on('connection', (socket) => {
 });
 
 // 4. Background Node Cron Scheduler
+// 24/7 Cloud Keep-Alive Self Ping (Prevents Render Free Tier from sleeping)
+const https = require('https');
+const http = require('http');
+cron.schedule('*/10 * * * *', () => {
+  const cloudUrl = process.env.RENDER_EXTERNAL_URL || 'https://kidsafe-location-tracker.onrender.com';
+  console.log(`Keep-Alive Cron: Pinging cloud server at ${cloudUrl}...`);
+  const client = cloudUrl.startsWith('https') ? https : http;
+  client.get(cloudUrl, (res) => {
+    console.log(`Keep-Alive Cron: Ping response status [${res.statusCode}]`);
+  }).on('error', (err) => {
+    console.log('Keep-Alive Cron: Ping error:', err.message);
+  });
+});
+
 // Scheduled daily report compiler: runs every day at 11:30 PM (23:30)
 cron.schedule('30 23 * * *', async () => {
   console.log('Cron Job: Starting daily commute reports compilation...');
