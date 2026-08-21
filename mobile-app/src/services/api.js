@@ -69,12 +69,17 @@ const handleMockFallback = (config) => {
   if (url.includes('/location/live/')) {
     return {
       data: {
-        latitude: 28.6253,
-        longitude: 77.2155,
-        speed: 5,
-        battery: 88,
-        network: '4G',
-        timestamp: new Date().toISOString()
+        success: true,
+        location: {
+          latitude: 28.6253,
+          longitude: 77.2155,
+          speed: 5,
+          battery: 88,
+          network: '4G',
+          timestamp: new Date().toISOString(),
+          deviceStatus: 'online',
+          status: 'Live'
+        }
       }
     };
   }
