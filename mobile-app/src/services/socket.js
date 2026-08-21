@@ -40,11 +40,14 @@ class SocketService {
 
     this.socket.on('connect_error', (err) => {
       console.log('⚠️ Socket Connection Error to:', SOCKET_URL, '| Reason:', err.message);
+      store.dispatch(setSocketConnected(false));
+      store.dispatch(setMqttServerOnline(false));
     });
 
     this.socket.on('disconnect', () => {
       console.log('SocketDisconnected from server');
       store.dispatch(setSocketConnected(false));
+      store.dispatch(setMqttServerOnline(false));
     });
 
     // Listen for live tracker updates from the backend MQTT service
