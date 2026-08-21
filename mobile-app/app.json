@@ -19,6 +19,11 @@
         "ACCESS_BACKGROUND_LOCATION",
         "FOREGROUND_SERVICE"
       ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "59652dac-fd45-4eaf-a6f5-c01ee17b3170"
+      }
     }
   }
 }
