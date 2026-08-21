@@ -202,28 +202,10 @@ export default function TrackingMapScreen() {
           {/* Geofence zones overlays */}
           {childZones.filter(z => z.is_active).map(zone => {
             if (zone.type === 'path') {
-              return (
-                <React.Fragment key={zone.id}>
-                  {/* End of Road Route */}
-                  <Marker
-                    coordinate={zone.path[zone.path.length - 1]}
-                    title="End: New Market"
-                    pinColor="green"
-                  />
-                </React.Fragment>
-              );
+              return null;
             }
             if (zone.type === 'line') {
-              return (
-                <React.Fragment key={zone.id}>
-                  {/* Endpoint Markers */}
-                  <Marker
-                    coordinate={{ latitude: zone.latitude, longitude: zone.longitude }}
-                    title="Start: New Market"
-                    pinColor="green"
-                  />
-                </React.Fragment>
-              );
+              return null;
             }
             return (
               <React.Fragment key={`zone-tracking-${zone.id}`}>
