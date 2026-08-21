@@ -178,11 +178,22 @@ function initializeMQTT() {
         }
         
         logs.push({
+          imei: topic,
+          trackerId,
           latitude: parsed.latitude,
           longitude: parsed.longitude,
           speed: parsed.speed,
           battery: parsed.battery,
+          signal: parsed.signal,
           satellites: parsed.satellites,
+          course: parsed.course,
+          countryCode: parsed.countryCode,
+          operatorCode: parsed.operatorCode,
+          lac: parsed.lac,
+          cellId: parsed.cellId,
+          configMode: parsed.configMode,
+          network: `${parsed.signal} GSM`,
+          hasGpsFix: parsed.hasGpsFix,
           timestamp: parsed.timestamp
         });
         
