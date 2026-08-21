@@ -168,8 +168,10 @@ const locationSlice = createSlice({
       const { childId } = action.payload;
       if (state.liveLocations[childId]) {
         state.liveLocations[childId].status = 'Offline (Device Powered Off)';
+        state.liveLocations[childId].deviceStatus = 'offline';
         state.liveLocations[childId].battery = 0;
         state.liveLocations[childId].network = 'Disconnected';
+        state.liveLocations[childId].timestamp = new Date().toISOString();
       }
     },
     simulateMovementStep: (state, action) => {
@@ -240,7 +242,14 @@ const locationSlice = createSlice({
       .addCase(fetchLiveLocation.fulfilled, (state, action) => {
         if (action.payload) {
           const childId = action.meta.arg;
-          state.liveLocations[childId] = action.payload;
+          const lastSeenTime = action.payload.timestamp ? new Date(action.payload.timestamp).getTime() : 0;
+          const isStale = !lastSeenTime || Date.now() - lastSeenTime > 35 * 1000;
+          state.isMqttServerOnline = !isStale;
+          state.liveLocations[childId] = {
+            ...action.payload,
+            deviceStatus: isStale ? 'offline' : (action.payload.deviceStatus || 'online'),
+            status: isStale ? 'Offline (No MQTT data)' : (action.payload.status || 'Live')
+          };
         }
       });
   }
