@@ -78,6 +78,16 @@ export default function DashboardScreen({ navigation }) {
     }
   }, [selectedChild?.id, dispatch]);
 
+  // Release APK fallback: keep polling the backend even if Socket.IO is blocked or reconnecting.
+  useEffect(() => {
+    if (!selectedChild?.id) return undefined;
+
+    const interval = setInterval(() => {
+      dispatch(fetchLiveLocation(selectedChild.id));
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, [selectedChild?.id, dispatch]);
   const [alternativeRoutes, setAlternativeRoutes] = useState([]);
 
   useEffect(() => {

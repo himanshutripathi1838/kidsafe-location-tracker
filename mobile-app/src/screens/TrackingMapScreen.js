@@ -3,7 +3,7 @@ import { StyleSheet, View, Text, TouchableOpacity, SafeAreaView, Dimensions, Pla
 import { useSelector, useDispatch } from 'react-redux';
 import MapView, { Marker, Polyline, Circle, PROVIDER_GOOGLE } from 'react-native-maps';
 import * as Location from 'expo-location';
-import { updateLiveLocation } from '../redux/slices/locationSlice';
+import { updateLiveLocation, fetchLiveLocation } from '../redux/slices/locationSlice';
 import { getTranslation } from '../utils/localization';
 
 import telemetryService from '../services/telemetryService';
@@ -32,12 +32,23 @@ export default function TrackingMapScreen() {
   useEffect(() => {
     if (selectedChild?.id) {
       telemetryService.startRealTimeTelemetry(selectedChild.id);
+      dispatch(fetchLiveLocation(selectedChild.id));
     }
     return () => {
       telemetryService.stopRealTimeTelemetry();
     };
   }, [selectedChild?.id]);
 
+  // Release APK fallback: poll backend while Socket.IO connects/reconnects.
+  useEffect(() => {
+    if (!selectedChild?.id) return undefined;
+
+    const interval = setInterval(() => {
+      dispatch(fetchLiveLocation(selectedChild.id));
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, [selectedChild?.id, dispatch]);
   // Auto pan to child when coordinate updates
   useEffect(() => {
     if (followUser && currentLocation && mapRef.current) {
