@@ -17,12 +17,12 @@ function getHaversineDistanceKm(lat1, lon1, lat2, lon2) {
 // Initial Bhopal routes (New Market, Roshanpura Square, Arera Colony, Bhopal)
 const mockRoutes = {
   'c-uuid-1': [
-    { latitude: 23.2334, longitude: 77.4011, speed: 0.0, battery: 98, network: '4G', mode: 'Stopped', status: 'New Market (Home)', timestamp: new Date(Date.now() - 3600000 * 3).toISOString() }, // New Market Bhopal
-    { latitude: 23.2345, longitude: 77.4020, speed: 3.6, battery: 96, network: '4G', mode: 'Walking', status: 'TT Nagar Walk', timestamp: new Date(Date.now() - 3600000 * 2.5).toISOString() }, // TT Nagar Walking
-    { latitude: 23.2370, longitude: 77.4035, speed: 24.5, battery: 95, network: '4G', mode: 'School Bus', status: 'Roshanpura Square', timestamp: new Date(Date.now() - 3600000 * 2).toISOString() }, // Roshanpura Square Bus
-    { latitude: 23.2280, longitude: 77.4180, speed: 28.0, battery: 92, network: '3G', mode: 'School Bus', status: 'Link Road No. 1', timestamp: new Date(Date.now() - 3600000 * 1.5).toISOString() },
-    { latitude: 23.2210, longitude: 77.4320, speed: 3.8, battery: 89, network: '4G', mode: 'Walking', status: 'School Gate Arera Colony', timestamp: new Date(Date.now() - 3600000 * 1).toISOString() },
-    { latitude: 23.2334, longitude: 77.4011, speed: 0.0, battery: 85, network: '4G', mode: 'Stopped', status: 'New Market Bhopal', timestamp: new Date().toISOString() } // New Market Bhopal
+    { latitude: 23.2170, longitude: 77.3967, speed: 0.0, battery: 98, network: '4G', mode: 'Stopped', status: 'GPS Tracker Location', timestamp: new Date(Date.now() - 3600000 * 3).toISOString() },
+    { latitude: 23.2172, longitude: 77.3968, speed: 3.6, battery: 96, network: '4G', mode: 'Walking', status: 'GPS Tracker Walk', timestamp: new Date(Date.now() - 3600000 * 2.5).toISOString() },
+    { latitude: 23.2174, longitude: 77.3970, speed: 4.5, battery: 95, network: '4G', mode: 'Walking', status: 'GPS Tracker Transit', timestamp: new Date(Date.now() - 3600000 * 2).toISOString() },
+    { latitude: 23.2175, longitude: 77.3972, speed: 4.8, battery: 92, network: '4G', mode: 'Walking', status: 'GPS Tracker Transit', timestamp: new Date(Date.now() - 3600000 * 1.5).toISOString() },
+    { latitude: 23.2176, longitude: 77.3973, speed: 3.8, battery: 89, network: '4G', mode: 'Walking', status: 'GPS Tracker Location', timestamp: new Date(Date.now() - 3600000 * 1).toISOString() },
+    { latitude: 23.2170, longitude: 77.3967, speed: 0.0, battery: 85, network: '4G', mode: 'Stopped', status: 'GPS Tracker Location', timestamp: new Date().toISOString() }
   ],
   'c-uuid-2': [
     { latitude: 23.2370, longitude: 77.4025, speed: 0.0, battery: 74, network: '4G', mode: 'Stopped', status: 'GTB Complex Bhopal', timestamp: new Date(Date.now() - 3600000 * 4).toISOString() },
@@ -150,6 +150,10 @@ const locationSlice = createSlice({
       // Jitter filter: Only add to path history if distance to last coordinate is greater than ~4 meters (0.00004 deg)
       let shouldAppend = true;
       if (lastPoint) {
+        const distKm = getHaversineDistanceKm(lastPoint.latitude, lastPoint.longitude, newLoc.latitude, newLoc.longitude);
+        if (distKm > 50) {
+          return; // Ignore extreme anomalous coordinate jumps (> 50km)
+        }
         const diffLat = Math.abs(newLoc.latitude - lastPoint.latitude);
         const diffLng = Math.abs(newLoc.longitude - lastPoint.longitude);
         if (diffLat < 0.00004 && diffLng < 0.00004) {
@@ -159,7 +163,7 @@ const locationSlice = createSlice({
       
       if (shouldAppend) {
         history.push(newLoc);
-        if (history.length > 200) {
+        if (history.length > 1000) {
           history.shift();
         }
       }

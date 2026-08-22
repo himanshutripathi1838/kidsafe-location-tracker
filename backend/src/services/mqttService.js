@@ -18,6 +18,8 @@ const smsService = require('./smsService');
 let client = null;
 let ioInstance = null;
 const lastKnownCoordinates = {};
+const lastChildTelemetryAt = {};
+const offlineNotifiedChildren = {};
 let isMqttConnected = false;
 
 const brokerUrl = 'mqtt://103.73.191.240:1883';
@@ -120,7 +122,7 @@ function initializeMQTT() {
       }
 
       if (!childId) {
-        logger.info(`MQTT Ingestion: Skipping telemetry for unmapped device IMEI [${topic}] (DB Offline)`);
+        // Ignore unmapped random devices on public broker to prevent location jumping
         return;
       }
 
@@ -260,7 +262,9 @@ function initializeMQTT() {
       // 3. ALWAYS emit live location over Socket.IO (even if DB is offline!)
       if (ioInstance && childId) {
         const socketRoom = `child_${childId}`;
-        ioInstance.to(socketRoom).emit('tracker-update', {
+        lastChildTelemetryAt[childId] = Date.now();
+        offlineNotifiedChildren[childId] = false;
+        const updatePayload = {
           trackerId,
           childId,
           imei: topic,
@@ -278,8 +282,11 @@ function initializeMQTT() {
           configMode: parseInt(parsed.configMode, 10),
           status: 'online',
           timestamp: parsed.timestamp.toISOString()
-        });
-        logger.info(`Dispatched tracker-update stream to Socket.IO room [${socketRoom}] (DB Liveness: ${isDbConnected})`);
+        };
+
+        ioInstance.to(socketRoom).emit('tracker-update', updatePayload);
+        ioInstance.emit('tracker-update', updatePayload);
+        logger.info(`Dispatched tracker-update stream to Socket.IO room [${socketRoom}] and global channel.`);
       }
 
     } catch (err) {
@@ -425,6 +432,23 @@ function startOfflineDetection() {
   
   setInterval(async () => {
     try {
+      const now = Date.now();
+      for (const [childId, lastSeen] of Object.entries(lastChildTelemetryAt)) {
+        if (now - lastSeen > 30 * 1000 && !offlineNotifiedChildren[childId]) {
+          offlineNotifiedChildren[childId] = true;
+          if (ioInstance) {
+            const socketRoom = `child_${childId}`;
+            ioInstance.to(socketRoom).emit('tracker-offline', {
+              childId,
+              status: 'offline',
+              reason: 'No MQTT telemetry received for 30 seconds.',
+              timestamp: new Date().toISOString()
+            });
+            logger.warn(`In-memory tracker timeout detected for child ${childId}. Emitted tracker-offline.`);
+          }
+        }
+      }
+
       const Op = require('sequelize').Op;
       const timeoutThreshold = new Date(Date.now() - 30 * 1000); // 30 seconds ago
       

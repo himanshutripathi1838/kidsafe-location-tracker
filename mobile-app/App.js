@@ -13,10 +13,13 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as Notifications from 'expo-notifications';
 import Constants, { ExecutionEnvironment } from 'expo-constants';
 
-// Suppress the Expo Go push notifications warning popup
+// Suppress Expo Go SDK deprecation & notification warnings in development console
 LogBox.ignoreLogs([
-  'expo-notifications: Android Push notifications',
-  'Android Push notifications (remote notifications) functionality'
+  'expo-notifications',
+  'Android Push notifications',
+  '[expo-av]',
+  'SafeAreaView has been deprecated',
+  '`expo-notifications` functionality is not fully supported in Expo Go'
 ]);
 
 // Detect if app is running in Expo Go (SDK 53+ removed remote push notifications from Expo Go)

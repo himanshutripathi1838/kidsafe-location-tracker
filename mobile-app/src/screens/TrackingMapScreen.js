@@ -1,12 +1,14 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { StyleSheet, View, Text, TouchableOpacity, SafeAreaView, Dimensions, Platform, StatusBar } from 'react-native';
+import { StyleSheet, View, Text, TouchableOpacity, Dimensions, Platform, StatusBar } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useSelector, useDispatch } from 'react-redux';
-import MapView, { Marker, Polyline, Circle, PROVIDER_GOOGLE } from 'react-native-maps';
+import MapView, { Marker, Polyline, Circle, UrlTile, PROVIDER_GOOGLE } from 'react-native-maps';
 import * as Location from 'expo-location';
 import { updateLiveLocation, fetchLiveLocation } from '../redux/slices/locationSlice';
 import { getTranslation } from '../utils/localization';
 
 import telemetryService from '../services/telemetryService';
+import SafeMapView from '../components/SafeMapView';
 
 const { width, height } = Dimensions.get('window');
 
@@ -14,13 +16,18 @@ export default function TrackingMapScreen() {
   const dispatch = useDispatch();
   const mapRef = useRef(null);
   const { language } = useSelector((state) => state.auth);
-  const { children, selectedChildId } = useSelector((state) => state.child);
-  const { liveLocations, routeHistory } = useSelector((state) => state.location);
-  const { zones } = useSelector((state) => state.geofence);
+  const { children = [], selectedChildId } = useSelector((state) => state.child);
+  const { liveLocations = {}, routeHistory = {}, isSocketConnected, isMqttServerOnline } = useSelector((state) => state.location);
+  const { zones = {} } = useSelector((state) => state.geofence);
 
-  const selectedChild = children.find(c => c.id === selectedChildId) || children[0];
+  const selectedChild = (children && children.length > 0) ? (children.find(c => c.id === selectedChildId) || children[0]) : null;
   const currentLocation = liveLocations[selectedChild?.id];
   const historyPoints = routeHistory[selectedChild?.id] || [];
+
+  const lastSeen = currentLocation?.timestamp ? new Date(currentLocation.timestamp).getTime() : 0;
+  const isTelemetryStale = !lastSeen || (Date.now() - lastSeen > 120000);
+  const isOffline = !isSocketConnected || !isMqttServerOnline || isTelemetryStale || currentLocation?.deviceStatus === 'offline';
+  const displayStatus = isOffline ? 'Offline' : (currentLocation?.status || 'Live');
   const childZones = zones[selectedChild?.id] || [];
 
   const [mapType, setMapType] = useState('standard'); // standard, satellite, terrain
@@ -49,17 +56,35 @@ export default function TrackingMapScreen() {
 
     return () => clearInterval(interval);
   }, [selectedChild?.id, dispatch]);
-  // Auto pan to child when coordinate updates
+
+  const lastAnimatedCoordsRef = useRef(null);
+
+  // Auto pan to child smoothly when coordinate updates significantly (> 10 meters)
   useEffect(() => {
-    if (followUser && currentLocation && mapRef.current) {
-      mapRef.current.animateToRegion({
-        latitude: currentLocation.latitude,
-        longitude: currentLocation.longitude,
-        latitudeDelta: 0.012,
-        longitudeDelta: 0.012,
-      }, 1000);
+    if (followUser && currentLocation?.latitude && currentLocation?.longitude && mapRef.current) {
+      const last = lastAnimatedCoordsRef.current;
+      let shouldAnimate = false;
+      if (!last) {
+        shouldAnimate = true;
+      } else {
+        const dLat = Math.abs(currentLocation.latitude - last.latitude);
+        const dLng = Math.abs(currentLocation.longitude - last.longitude);
+        if (dLat > 0.0001 || dLng > 0.0001) {
+          shouldAnimate = true;
+        }
+      }
+
+      if (shouldAnimate) {
+        lastAnimatedCoordsRef.current = { latitude: currentLocation.latitude, longitude: currentLocation.longitude };
+        mapRef.current.animateToRegion({
+          latitude: currentLocation.latitude,
+          longitude: currentLocation.longitude,
+          latitudeDelta: 0.012,
+          longitudeDelta: 0.012,
+        }, 1000);
+      }
     }
-  }, [currentLocation, followUser]);
+  }, [currentLocation?.latitude, currentLocation?.longitude, followUser]);
 
   const [trailCoordinates, setTrailCoordinates] = useState([]);
 
@@ -198,123 +223,141 @@ export default function TrackingMapScreen() {
 
   return (
     <SafeAreaView style={styles.container}>
+      {/* Full Width Top Header */}
+      <View style={styles.header}>
+        <View>
+          <Text style={styles.headerTitle}>🗺️ Live Map Tracking</Text>
+          <Text style={styles.headerSubtitle}>Real-time GPS tracking for {selectedChild?.name || 'Child'}</Text>
+        </View>
+      </View>
+
       <View style={styles.mapWrapper}>
-        <MapView
-          ref={mapRef}
-          style={styles.map}
-          mapType={mapType}
-          initialRegion={{
-            latitude: currentLocation?.latitude || 28.6253,
-            longitude: currentLocation?.longitude || 77.2155,
-            latitudeDelta: 0.015,
-            longitudeDelta: 0.015,
-          }}
-        >
-          {/* Geofence zones overlays */}
-          {childZones.filter(z => z.is_active).map(zone => {
-            if (zone.type === 'path') {
-              return null;
-            }
-            if (zone.type === 'line') {
-              return null;
-            }
-            return (
-              <React.Fragment key={`zone-tracking-${zone.id}`}>
-                {/* Circle Boundary */}
-                <Circle
-                  center={{ latitude: zone.latitude, longitude: zone.longitude }}
-                  radius={zone.radius}
-                  strokeColor={`${zone.color}AA`}
-                  fillColor={`${zone.color}22`}
-                  strokeWidth={2.5}
-                />
-                {/* Pin Marker for geofence */}
-                <Marker
-                  coordinate={{ latitude: zone.latitude, longitude: zone.longitude }}
-                  title={zone.name}
-                  description={`Safety geofence center (${zone.radius}m radius)`}
-                >
-                  <View style={{ backgroundColor: '#FFFFFF', padding: 6, borderRadius: 20, borderWidth: 1.5, borderColor: '#EF4444', shadowOffset: { width: 0, height: 1 }, shadowOpacity: 0.2, shadowRadius: 1.41, elevation: 2 }}>
-                    <Text style={{ fontSize: 13 }}>📍</Text>
-                  </View>
-                </Marker>
-                {/* Dynamic road routes from OSRM or straight dashed line fallback */}
-                {alternativeRoutes && alternativeRoutes.length > 0 ? (
-                  alternativeRoutes.map((route, idx) => {
-                    let strokeColor = '#3B82F6'; // Primary Route: Bright Blue
-                    let strokeWidth = 4;
-                    let zIndex = 10;
-                    
-                    if (idx === 1) {
-                      strokeColor = '#6B7280'; // Alternative 1: Grey
-                      strokeWidth = 3.5;
-                      zIndex = 8;
-                    } else if (idx === 2) {
-                      strokeColor = '#10B981'; // Alternative 2: Green
-                      strokeWidth = 3;
-                      zIndex = 7;
-                    }
-                    
-                    return (
-                      <Polyline
-                        key={route.id}
-                        coordinates={route.coordinates}
-                        strokeColor={strokeColor}
-                        strokeWidth={strokeWidth}
-                        zIndex={zIndex}
-                      />
-                    );
-                  })
-                ) : (
-                  // Fallback to straight dashed line if OSRM is loading/failed
-                  currentLocation && (
-                    <Polyline
-                      coordinates={[
-                        { latitude: currentLocation.latitude, longitude: currentLocation.longitude },
-                        { latitude: zone.latitude, longitude: zone.longitude }
-                      ]}
-                      strokeColor="#6200EE"
-                      strokeWidth={2.5}
-                      lineDashPattern={[6, 6]}
-                    />
-                  )
-                )}
-              </React.Fragment>
-            );
-          })}
-
-          {/* Dynamic 30-Second Rolling Trailing Trail */}
-          {trailCoordinates && trailCoordinates.length > 1 && (
-            <Polyline
-              coordinates={trailCoordinates.map(pt => ({
-                latitude: pt.latitude,
-                longitude: pt.longitude
-              }))}
-              strokeColor="#6200EE"
-              strokeWidth={5}
-              lineCap="round"
-              lineJoin="round"
+        <SafeMapView fallbackLocation={currentLocation} childName={selectedChild?.name}>
+          <MapView
+            ref={mapRef}
+            style={styles.map}
+            mapType={mapType}
+            initialRegion={{
+              latitude: currentLocation?.latitude || 23.2162,
+              longitude: currentLocation?.longitude || 77.3956,
+              latitudeDelta: 0.015,
+              longitudeDelta: 0.015,
+            }}
+          >
+            {/* CartoDB Voyager OpenStreetMap Tile Provider (100% Free, Zero 403 Block) */}
+            <UrlTile
+              urlTemplate="https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png"
+              maximumZ={19}
+              tileSize={256}
+              zIndex={-1}
+              flipY={false}
             />
-          )}
+            {/* Geofence zones overlays */}
+            {childZones.filter(z => z.is_active).map(zone => {
+              if (zone.type === 'path') {
+                return null;
+              }
+              if (zone.type === 'line') {
+                return null;
+              }
+              return (
+                <React.Fragment key={`zone-tracking-${zone.id}`}>
+                  {/* Circle Boundary */}
+                  <Circle
+                    center={{ latitude: zone.latitude, longitude: zone.longitude }}
+                    radius={zone.radius}
+                    strokeColor={`${zone.color}AA`}
+                    fillColor={`${zone.color}22`}
+                    strokeWidth={2.5}
+                  />
+                  {/* Pin Marker for geofence */}
+                  <Marker
+                    coordinate={{ latitude: zone.latitude, longitude: zone.longitude }}
+                    title={zone.name}
+                    description={`Safety geofence center (${zone.radius}m radius)`}
+                  >
+                    <View style={{ backgroundColor: '#FFFFFF', padding: 6, borderRadius: 20, borderWidth: 1.5, borderColor: '#EF4444', shadowOffset: { width: 0, height: 1 }, shadowOpacity: 0.2, shadowRadius: 1.41, elevation: 2 }}>
+                      <Text style={{ fontSize: 13 }}>📍</Text>
+                    </View>
+                  </Marker>
+                  {/* Dynamic road routes from OSRM or straight dashed line fallback */}
+                  {alternativeRoutes && alternativeRoutes.length > 0 ? (
+                    alternativeRoutes.map((route, idx) => {
+                      let strokeColor = '#3B82F6'; // Primary Route: Bright Blue
+                      let strokeWidth = 4;
+                      let zIndex = 10;
+                      
+                      if (idx === 1) {
+                        strokeColor = '#6B7280'; // Alternative 1: Grey
+                        strokeWidth = 3.5;
+                        zIndex = 8;
+                      } else if (idx === 2) {
+                        strokeColor = '#10B981'; // Alternative 2: Green
+                        strokeWidth = 3;
+                        zIndex = 7;
+                      }
+                      
+                      return (
+                        <Polyline
+                          key={route.id}
+                          coordinates={route.coordinates}
+                          strokeColor={strokeColor}
+                          strokeWidth={strokeWidth}
+                          zIndex={zIndex}
+                        />
+                      );
+                    })
+                  ) : (
+                    // Fallback to straight dashed line if OSRM is loading/failed
+                    currentLocation && (
+                      <Polyline
+                        coordinates={[
+                          { latitude: currentLocation.latitude, longitude: currentLocation.longitude },
+                          { latitude: zone.latitude, longitude: zone.longitude }
+                        ]}
+                        strokeColor="#6200EE"
+                        strokeWidth={2.5}
+                        lineDashPattern={[6, 6]}
+                      />
+                    )
+                  )}
+                </React.Fragment>
+              );
+            })}
 
-          {/* Child current marker */}
-          {currentLocation && (
-            <Marker
-              coordinate={{
-                latitude: currentLocation.latitude,
-                longitude: currentLocation.longitude,
-              }}
-              rotation={currentLocation.course || 0}
-              title={selectedChild?.name}
-              description={`${t('speed')}: ${currentLocation.speed} km/h | ${t('battery')}: ${currentLocation.battery}%`}
-            >
-              <View style={styles.avatarMarker}>
-                <View style={styles.pulseBorder} />
-                <Text style={styles.markerEmoji}>🧒</Text>
-              </View>
-            </Marker>
-          )}
-        </MapView>
+            {/* Dynamic 30-Second Rolling Trailing Trail */}
+            {trailCoordinates && trailCoordinates.length > 1 && (
+              <Polyline
+                coordinates={trailCoordinates.map(pt => ({
+                  latitude: pt.latitude,
+                  longitude: pt.longitude
+                }))}
+                strokeColor="#6200EE"
+                strokeWidth={5}
+                lineCap="round"
+                lineJoin="round"
+              />
+            )}
+
+            {/* Child current marker */}
+            {currentLocation && (
+              <Marker
+                coordinate={{
+                  latitude: currentLocation.latitude,
+                  longitude: currentLocation.longitude,
+                }}
+                rotation={currentLocation.course || 0}
+                title={selectedChild?.name}
+                description={`${t('speed')}: ${currentLocation.speed} km/h | ${t('battery')}: ${currentLocation.battery}%`}
+              >
+                <View style={styles.avatarMarker}>
+                  <View style={styles.pulseBorder} />
+                  <Text style={styles.markerEmoji}>🧒</Text>
+                </View>
+              </Marker>
+            )}
+          </MapView>
+        </SafeMapView>
 
         {/* OSRM Route Info Overlay Card */}
         {alternativeRoutes && alternativeRoutes.length > 0 && (
@@ -411,7 +454,7 @@ export default function TrackingMapScreen() {
                 <Text style={styles.telemetryLbl}>{t('network')}</Text>
               </View>
               <View style={styles.telemetryItem}>
-                <Text style={styles.telemetryVal}>{currentLocation.status}</Text>
+                <Text style={styles.telemetryVal}>{displayStatus}</Text>
                 <Text style={styles.telemetryLbl}>{t('status')}</Text>
               </View>
             </View>
@@ -425,8 +468,34 @@ export default function TrackingMapScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F3F4F6',
-    paddingTop: Platform.OS === 'android' ? (StatusBar.currentHeight || 28) : 0,
+    backgroundColor: '#FFFFFF',
+  },
+  header: {
+    width: '100%',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    backgroundColor: '#FFFFFF',
+    borderBottomWidth: 1,
+    borderBottomColor: '#E2E8F0',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.04,
+    shadowRadius: 4,
+    elevation: 2,
+    zIndex: 100,
+  },
+  headerTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#1F2937',
+  },
+  headerSubtitle: {
+    fontSize: 12,
+    color: '#6B7280',
+    marginTop: 2,
   },
   mapWrapper: {
     flex: 1,

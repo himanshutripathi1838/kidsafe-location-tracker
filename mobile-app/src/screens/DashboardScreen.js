@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import { StyleSheet, View, Text, TouchableOpacity, ScrollView, SafeAreaView, Dimensions, Share, Platform, StatusBar, Alert, Linking, TextInput, Modal, ActivityIndicator } from 'react-native';
+import React, { useEffect, useState, useRef } from 'react';
+import { StyleSheet, View, Text, TouchableOpacity, ScrollView, Dimensions, Share, Platform, StatusBar, Alert, Linking, TextInput, Modal, ActivityIndicator } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useDispatch, useSelector } from 'react-redux';
-import MapView, { Marker, Circle, Polyline } from 'react-native-maps';
+import MapView, { Marker, Circle, Polyline, UrlTile } from 'react-native-maps';
 import * as Location from 'expo-location';
 import { setSelectedChildId, addChildLocal, deleteChildLocal } from '../redux/slices/childSlice';
 import { simulateMovementStep, updateLiveLocation, setSimulationMode, fetchLiveLocation } from '../redux/slices/locationSlice';
@@ -14,6 +15,7 @@ import * as Notifications from 'expo-notifications';
 import * as Battery from 'expo-battery';
 
 import telemetryService from '../services/telemetryService';
+import SafeMapView from '../components/SafeMapView';
 
 const { width } = Dimensions.get('window');
 
@@ -40,6 +42,34 @@ export default function DashboardScreen({ navigation }) {
   const childReport = reports[selectedChild?.id];
 
   const t = (key) => getTranslation(language, key);
+  const mapRef = useRef(null);
+  const lastAnimatedCoordsRef = useRef(null);
+
+  useEffect(() => {
+    if (currentLocation?.latitude && currentLocation?.longitude && mapRef.current) {
+      const last = lastAnimatedCoordsRef.current;
+      let shouldAnimate = false;
+      if (!last) {
+        shouldAnimate = true;
+      } else {
+        const dLat = Math.abs(currentLocation.latitude - last.latitude);
+        const dLng = Math.abs(currentLocation.longitude - last.longitude);
+        if (dLat > 0.0001 || dLng > 0.0001) {
+          shouldAnimate = true;
+        }
+      }
+
+      if (shouldAnimate) {
+        lastAnimatedCoordsRef.current = { latitude: currentLocation.latitude, longitude: currentLocation.longitude };
+        mapRef.current.animateToRegion({
+          latitude: currentLocation.latitude,
+          longitude: currentLocation.longitude,
+          latitudeDelta: 0.015,
+          longitudeDelta: 0.015,
+        }, 1000);
+      }
+    }
+  }, [currentLocation?.latitude, currentLocation?.longitude]);
 
   // Load / Sync default road path geofences and set start point to real current location
   useEffect(() => {
@@ -88,6 +118,7 @@ export default function DashboardScreen({ navigation }) {
 
     return () => clearInterval(interval);
   }, [selectedChild?.id, dispatch]);
+
   const [alternativeRoutes, setAlternativeRoutes] = useState([]);
 
   useEffect(() => {
@@ -272,7 +303,9 @@ export default function DashboardScreen({ navigation }) {
   };
 
   const getStatusIndicator = () => {
-    if (!isSocketConnected || !isMqttServerOnline) {
+    const lastSeenTime = currentLocation?.timestamp ? new Date(currentLocation.timestamp).getTime() : 0;
+    const isChildTelemetryStale = !lastSeenTime || Date.now() - lastSeenTime > 120 * 1000;
+    if (!isSocketConnected || !isMqttServerOnline || isChildTelemetryStale || currentLocation?.deviceStatus === 'offline') {
       return { color: '#EF4444', text: 'Offline', textColor: '#EF4444' };
     }
     return { color: '#10B981', text: 'Live', textColor: '#10B981' };
@@ -337,27 +370,13 @@ export default function DashboardScreen({ navigation }) {
         )}
 
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', padding: 24, backgroundColor: '#FFFFFF', margin: 16, borderRadius: 20 }}>
-          {!isMqttServerOnline ? (
-            <>
-              <Text style={{ fontSize: 48, marginBottom: 16 }}>⚠️</Text>
-              <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#EF4444', textAlign: 'center', marginBottom: 8 }}>
-                MQTT Server Offline
-              </Text>
-              <Text style={{ fontSize: 13, color: '#6B7280', textAlign: 'center', lineHeight: 18, marginBottom: 20 }}>
-                The MQTT broker server at 103.73.191.240 is currently offline. Live tracker updates are paused.
-              </Text>
-            </>
-          ) : (
-            <>
-              <Text style={{ fontSize: 48, marginBottom: 16 }}>🛰️</Text>
-              <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#374151', textAlign: 'center', marginBottom: 8 }}>
-                Connecting to GPS Tracker...
-              </Text>
-              <Text style={{ fontSize: 13, color: '#6B7280', textAlign: 'center', lineHeight: 18, marginBottom: 20 }}>
-                We are waiting for the first live telemetry update from MQTT broker on topic IMEI: {selectedChild?.device_id}. Please ensure the device is powered on.
-              </Text>
-            </>
-          )}
+          <Text style={{ fontSize: 48, marginBottom: 16 }}>🛰️</Text>
+          <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#374151', textAlign: 'center', marginBottom: 8 }}>
+            Connecting to GPS Tracker...
+          </Text>
+          <Text style={{ fontSize: 13, color: '#6B7280', textAlign: 'center', lineHeight: 18, marginBottom: 20 }}>
+            Waiting for the latest backend location update for {selectedChild?.name}. Keep the backend running on 10.72.179.60:5000.
+          </Text>
           <ActivityIndicator size="large" color="#EF4444" />
         </View>
       </SafeAreaView>
@@ -459,108 +478,114 @@ export default function DashboardScreen({ navigation }) {
       <ScrollView contentContainerStyle={styles.scrollContent}>
         {/* Live Location Map */}
         <View style={styles.mapContainer}>
-          <MapView
-            style={styles.map}
-            initialRegion={{
-              latitude: currentLocation.latitude,
-              longitude: currentLocation.longitude,
-              latitudeDelta: 0.015,
-              longitudeDelta: 0.015,
-            }}
-            region={{
-              latitude: currentLocation.latitude,
-              longitude: currentLocation.longitude,
-              latitudeDelta: 0.015,
-              longitudeDelta: 0.015,
-            }}
-          >
-            {/* Child Marker */}
-            <Marker
-              coordinate={{
-                latitude: currentLocation.latitude,
-                longitude: currentLocation.longitude,
+          <SafeMapView fallbackLocation={currentLocation} childName={selectedChild?.name}>
+            <MapView
+              ref={mapRef}
+              style={styles.map}
+              mapType="standard"
+              initialRegion={{
+                latitude: currentLocation?.latitude || 23.2162,
+                longitude: currentLocation?.longitude || 77.3956,
+                latitudeDelta: 0.015,
+                longitudeDelta: 0.015,
               }}
-              title={selectedChild?.name}
-              description={`${t('speed')}: ${currentLocation.speed} km/h | ${t('battery')}: ${currentLocation.battery}%`}
             >
-              <View style={styles.customMarker}>
-                <Text style={styles.markerEmoji}>🧒</Text>
-              </View>
-            </Marker>
+              {/* CartoDB Voyager OpenStreetMap Tile Provider (100% Free, Zero 403 Block) */}
+              <UrlTile
+                urlTemplate="https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png"
+                maximumZ={19}
+                tileSize={256}
+                zIndex={-1}
+                flipY={false}
+              />
+              {/* Child Marker */}
+              <Marker
+                coordinate={{
+                  latitude: currentLocation.latitude,
+                  longitude: currentLocation.longitude,
+                }}
+                title={selectedChild?.name}
+                description={`${t('speed')}: ${currentLocation.speed} km/h | ${t('battery')}: ${currentLocation.battery}%`}
+              >
+                <View style={styles.customMarker}>
+                  <Text style={styles.markerEmoji}>🧒</Text>
+                </View>
+              </Marker>
 
-            {/* Geofences on dashboard map */}
-            {childZones.filter(z => z.is_active).map(zone => {
-              if (zone.type === 'path') {
-                return null;
-              }
-              if (zone.type === 'line') {
-                return null;
-              }
-              return (
-                <React.Fragment key={`zone-dashboard-${zone.id}`}>
-                  {/* Circle Boundary */}
-                  <Circle
-                    center={{ latitude: zone.latitude, longitude: zone.longitude }}
-                    radius={zone.radius}
-                    strokeColor={`${zone.color}66`}
-                    fillColor={`${zone.color}22`}
-                    strokeWidth={2}
-                  />
-                  {/* Pin Marker representing geofence location */}
-                  <Marker
-                    coordinate={{ latitude: zone.latitude, longitude: zone.longitude }}
-                    title={zone.name}
-                    description={`Safety geofence center (${zone.radius}m radius)`}
-                  >
-                    <View style={{ backgroundColor: '#FFFFFF', padding: 6, borderRadius: 20, borderWidth: 1.5, borderColor: '#EF4444', shadowOffset: { width: 0, height: 1 }, shadowOpacity: 0.2, shadowRadius: 1.41, elevation: 2 }}>
-                      <Text style={{ fontSize: 13 }}>📍</Text>
-                    </View>
-                  </Marker>
-                  {/* Dynamic road routes from OSRM or straight dashed line fallback */}
-                  {alternativeRoutes && alternativeRoutes.length > 0 ? (
-                    alternativeRoutes.map((route, idx) => {
-                      let strokeColor = '#3B82F6'; // Primary Route: Bright Blue
-                      let strokeWidth = 4;
-                      let zIndex = 10;
-                      
-                      if (idx === 1) {
-                        strokeColor = '#6B7280'; // Alternative 1: Grey
-                        strokeWidth = 3.5;
-                        zIndex = 8;
-                      } else if (idx === 2) {
-                        strokeColor = '#10B981'; // Alternative 2: Green
-                        strokeWidth = 3;
-                        zIndex = 7;
-                      }
-                      
-                      return (
+              {/* Geofences on dashboard map */}
+              {childZones.filter(z => z.is_active).map(zone => {
+                if (zone.type === 'path') {
+                  return null;
+                }
+                if (zone.type === 'line') {
+                  return null;
+                }
+                return (
+                  <React.Fragment key={`zone-dashboard-${zone.id}`}>
+                    {/* Circle Boundary */}
+                    <Circle
+                      center={{ latitude: zone.latitude, longitude: zone.longitude }}
+                      radius={zone.radius}
+                      strokeColor={`${zone.color}66`}
+                      fillColor={`${zone.color}22`}
+                      strokeWidth={2}
+                    />
+                    {/* Pin Marker representing geofence location */}
+                    <Marker
+                      coordinate={{ latitude: zone.latitude, longitude: zone.longitude }}
+                      title={zone.name}
+                      description={`Safety geofence center (${zone.radius}m radius)`}
+                    >
+                      <View style={{ backgroundColor: '#FFFFFF', padding: 6, borderRadius: 20, borderWidth: 1.5, borderColor: '#EF4444', shadowOffset: { width: 0, height: 1 }, shadowOpacity: 0.2, shadowRadius: 1.41, elevation: 2 }}>
+                        <Text style={{ fontSize: 13 }}>📍</Text>
+                      </View>
+                    </Marker>
+                    {/* Dynamic road routes from OSRM or straight dashed line fallback */}
+                    {alternativeRoutes && alternativeRoutes.length > 0 ? (
+                      alternativeRoutes.map((route, idx) => {
+                        let strokeColor = '#3B82F6'; // Primary Route: Bright Blue
+                        let strokeWidth = 4;
+                        let zIndex = 10;
+                        
+                        if (idx === 1) {
+                          strokeColor = '#6B7280'; // Alternative 1: Grey
+                          strokeWidth = 3.5;
+                          zIndex = 8;
+                        } else if (idx === 2) {
+                          strokeColor = '#10B981'; // Alternative 2: Green
+                          strokeWidth = 3;
+                          zIndex = 7;
+                        }
+                        
+                        return (
+                          <Polyline
+                            key={route.id}
+                            coordinates={route.coordinates}
+                            strokeColor={strokeColor}
+                            strokeWidth={strokeWidth}
+                            zIndex={zIndex}
+                          />
+                        );
+                      })
+                    ) : (
+                      // Fallback to straight dashed line if OSRM is loading/failed
+                      currentLocation && (
                         <Polyline
-                          key={route.id}
-                          coordinates={route.coordinates}
-                          strokeColor={strokeColor}
-                          strokeWidth={strokeWidth}
-                          zIndex={zIndex}
+                          coordinates={[
+                            { latitude: currentLocation.latitude, longitude: currentLocation.longitude },
+                            { latitude: zone.latitude, longitude: zone.longitude }
+                          ]}
+                          strokeColor="#6200EE"
+                          strokeWidth={2.5}
+                          lineDashPattern={[6, 6]}
                         />
-                      );
-                    })
-                  ) : (
-                    // Fallback to straight dashed line if OSRM is loading/failed
-                    currentLocation && (
-                      <Polyline
-                        coordinates={[
-                          { latitude: currentLocation.latitude, longitude: currentLocation.longitude },
-                          { latitude: zone.latitude, longitude: zone.longitude }
-                        ]}
-                        strokeColor="#6200EE"
-                        strokeWidth={2.5}
-                        lineDashPattern={[6, 6]}
-                      />
-                    )
-                  )}
-                </React.Fragment>
-              );
-            })}
-          </MapView>
+                      )
+                    )}
+                  </React.Fragment>
+                );
+              })}
+            </MapView>
+          </SafeMapView>
 
           {/* OSRM Route Info Overlay Card */}
           {alternativeRoutes && alternativeRoutes.length > 0 && (
@@ -1035,10 +1060,10 @@ export default function DashboardScreen({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F3F4F6',
-    paddingTop: Platform.OS === 'android' ? (StatusBar.currentHeight || 28) : 0,
+    backgroundColor: '#FFFFFF',
   },
   header: {
+    width: '100%',
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
@@ -1046,7 +1071,12 @@ const styles = StyleSheet.create({
     paddingVertical: 12,
     backgroundColor: '#FFFFFF',
     borderBottomWidth: 1,
-    borderBottomColor: '#E5E7EB',
+    borderBottomColor: '#E2E8F0',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.04,
+    shadowRadius: 4,
+    elevation: 2,
   },
   headerRightRow: {
     flexDirection: 'row',
@@ -1139,6 +1169,7 @@ const styles = StyleSheet.create({
   },
   scrollContent: {
     padding: 16,
+    backgroundColor: '#F3F4F6',
   },
   mapContainer: {
     height: 250,

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { StyleSheet, View, Text, ScrollView, TouchableOpacity, TextInput, Alert, Switch, SafeAreaView, Platform, StatusBar } from 'react-native';
+import { StyleSheet, View, Text, ScrollView, TouchableOpacity, TextInput, Alert, Switch, Platform, StatusBar } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useDispatch, useSelector } from 'react-redux';
 import { 
   startEditSession, 
@@ -232,12 +233,21 @@ export default function ContactsScreen() {
 
   return (
     <SafeAreaView style={styles.container}>
+      {/* Full Width Top Header */}
+      <View style={styles.header}>
+        <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+          <View style={{ width: 36, height: 36, borderRadius: 10, backgroundColor: '#EEF2FF', justifyContent: 'center', alignItems: 'center', marginRight: 10 }}>
+            <Text style={{ fontSize: 18 }}>📞</Text>
+          </View>
+          <View>
+            <Text style={styles.headerTitle}>Emergency Contacts</Text>
+            <Text style={styles.headerSubtitle}>Safety numbers & SOS rules ({activeChild?.name})</Text>
+          </View>
+        </View>
+      </View>
+
       <ScrollView contentContainerStyle={styles.scrollContent}>
-        <View style={styles.card}>
-          <Text style={styles.title}>{t('emergencyContacts')}</Text>
-          <Text style={styles.subtitle}>
-            Manage safety numbers. Primary numbers are called automatically during an SOS.
-          </Text>
+        {/* Hardware Device Limits Rules Banner */}
 
           {/* Hardware Device Limits Rules Banner */}
           <View style={styles.ruleBox}>
@@ -484,20 +494,45 @@ export default function ContactsScreen() {
               </View>
             ))}
           </View>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
-  );
+        </ScrollView>
+      </SafeAreaView>
+    );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F3F4F6',
-    paddingTop: Platform.OS === 'android' ? (StatusBar.currentHeight || 28) : 0,
+    backgroundColor: '#FFFFFF',
+  },
+  header: {
+    width: '100%',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    backgroundColor: '#FFFFFF',
+    borderBottomWidth: 1,
+    borderBottomColor: '#E2E8F0',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.04,
+    shadowRadius: 4,
+    elevation: 2,
+  },
+  headerTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#1F2937',
+  },
+  headerSubtitle: {
+    fontSize: 11.5,
+    color: '#6B7280',
+    marginTop: 1,
   },
   scrollContent: {
     padding: 16,
+    backgroundColor: '#F8FAFC',
   },
   card: {
     backgroundColor: '#FFFFFF',

@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, View, Text, TouchableOpacity, TextInput, Alert, ScrollView, SafeAreaView, Dimensions, Linking } from 'react-native';
+import { StyleSheet, View, Text, TouchableOpacity, TextInput, Alert, ScrollView, Dimensions, Linking } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useDispatch, useSelector } from 'react-redux';
-import MapView, { Marker } from 'react-native-maps';
+import MapView, { Marker, UrlTile } from 'react-native-maps';
 import { Audio } from 'expo-av';
 import { resolveSosAlert } from '../redux/slices/sosSlice';
 import { getTranslation } from '../utils/localization';
+import SafeMapView from '../components/SafeMapView';
 
 const { width } = Dimensions.get('window');
 
@@ -127,25 +129,36 @@ export default function SOSAlertScreen({ navigation }) {
 
         {/* SOS Location Map */}
         <View style={styles.mapContainer}>
-          <MapView
-            style={styles.map}
-            initialRegion={{
-              latitude: activeSosAlert.latitude,
-              longitude: activeSosAlert.longitude,
-              latitudeDelta: 0.008,
-              longitudeDelta: 0.008,
-            }}
-          >
-            <Marker
-              coordinate={{
+          <SafeMapView fallbackLocation={activeSosAlert} childName={activeSosAlert?.child_name}>
+            <MapView
+              style={styles.map}
+              mapType="standard"
+              initialRegion={{
                 latitude: activeSosAlert.latitude,
                 longitude: activeSosAlert.longitude,
+                latitudeDelta: 0.008,
+                longitudeDelta: 0.008,
               }}
-              title="EMERGENCY SOS"
-              description={`${activeSosAlert.child_name}'s location`}
-              pinColor="red"
-            />
-          </MapView>
+            >
+              {/* CartoDB Voyager OpenStreetMap Tile Provider (100% Free, Zero 403 Block) */}
+              <UrlTile
+                urlTemplate="https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png"
+                maximumZ={19}
+                tileSize={256}
+                zIndex={-1}
+                flipY={false}
+              />
+              <Marker
+                coordinate={{
+                  latitude: activeSosAlert.latitude,
+                  longitude: activeSosAlert.longitude,
+                }}
+                title="EMERGENCY SOS"
+                description={`${activeSosAlert.child_name}'s location`}
+                pinColor="red"
+              />
+            </MapView>
+          </SafeMapView>
         </View>
 
         {/* Quick Dials */}

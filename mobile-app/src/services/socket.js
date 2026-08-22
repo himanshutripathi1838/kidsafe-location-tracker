@@ -7,7 +7,7 @@ import { Alert } from 'react-native';
 import * as Notifications from 'expo-notifications';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const SOCKET_URL = 'http://10.152.202.60:5000';
+const SOCKET_URL = 'http://10.245.222.60:5000';
 
 class SocketService {
   socket = null;
@@ -32,6 +32,7 @@ class SocketService {
     this.socket.on('connect', () => {
       console.log('SocketConnected to server:', SOCKET_URL);
       store.dispatch(setSocketConnected(true));
+      store.dispatch(setMqttServerOnline(true));
       if (this.currentChildId) {
         this.socket.emit('subscribe', { childId: this.currentChildId });
         console.log(`Socket: Re-emitted subscribe on connect for child: ${this.currentChildId}`);
@@ -41,16 +42,19 @@ class SocketService {
     this.socket.on('connect_error', (err) => {
       console.log('⚠️ Socket Connection Error to:', SOCKET_URL, '| Reason:', err.message);
       store.dispatch(setSocketConnected(false));
+      store.dispatch(setMqttServerOnline(false));
     });
 
     this.socket.on('disconnect', () => {
       console.log('SocketDisconnected from server');
       store.dispatch(setSocketConnected(false));
+      store.dispatch(setMqttServerOnline(false));
     });
 
     // Listen for live tracker updates from the backend MQTT service
     this.socket.on('tracker-update', (data) => {
       console.log('Socket: Received tracker-update:', data);
+      store.dispatch(setMqttServerOnline(true));
       
       const previousState = store.getState().location.liveLocations[data.childId];
 

@@ -4,28 +4,62 @@
     "slug": "kidsafe-tracker",
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "assetBundlePatterns": [
       "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#6200EE",
+          "defaultChannel": "emergency-alerts",
+          "sounds": []
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "KidSafe needs location access to track your child.",
+          "locationAlwaysPermission": "KidSafe needs background location access.",
+          "locationWhenInUsePermission": "KidSafe needs location access."
+        }
+      ]
     ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "package": "com.kidsafe.tracker",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
       "usesCleartextTraffic": true,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyKeyPlaceholderForExpoMapsConfig001"
+        }
+      },
       "permissions": [
         "INTERNET",
         "ACCESS_COARSE_LOCATION",
         "ACCESS_FINE_LOCATION",
         "ACCESS_BACKGROUND_LOCATION",
-        "FOREGROUND_SERVICE"
+        "FOREGROUND_SERVICE",
+        "FOREGROUND_SERVICE_LOCATION",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
       ]
     },
     "extra": {
       "eas": {
-        "projectId": "59652dac-fd45-4eaf-a6f5-c01ee17b3170"
+        "projectId": "8e562d93-95c4-4aac-882f-726db864c12a"
       }
-    }
+    },
+    "owner": "ajjuo"
   }
 }

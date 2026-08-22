@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { StyleSheet, View, Text, ScrollView, TouchableOpacity, Switch, TextInput, Alert, SafeAreaView, Platform, StatusBar, Image } from 'react-native';
+import { StyleSheet, View, Text, ScrollView, TouchableOpacity, Switch, TextInput, Alert, Platform, StatusBar, Image } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useDispatch, useSelector } from 'react-redux';
 import { updateLocalChildSettings } from '../redux/slices/childSlice';
 import { setLanguage, logoutUser, updateParentProfile } from '../redux/slices/authSlice';
@@ -392,20 +393,29 @@ export default function SettingsScreen() {
 
   return (
     <SafeAreaView style={styles.container}>
+      {/* Full Width Top Header */}
+      <View style={styles.header}>
+        <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+          <View style={{ width: 36, height: 36, borderRadius: 10, backgroundColor: '#EEF2FF', justifyContent: 'center', alignItems: 'center', marginRight: 10 }}>
+            <Text style={{ fontSize: 18 }}>⚙️</Text>
+          </View>
+          <View>
+            <Text style={styles.headerTitle}>{t('settings')}</Text>
+            <Text style={styles.headerSubtitle}>App rules & student profiles</Text>
+          </View>
+        </View>
+        <TouchableOpacity 
+          style={{ flexDirection: 'row', alignItems: 'center', backgroundColor: isEditingProfile ? '#FEE2E2' : '#EEF2FF', paddingHorizontal: 12, paddingVertical: 6, borderRadius: 10 }}
+          onPress={() => setIsEditingProfile(!isEditingProfile)}
+        >
+          <Text style={{ fontSize: 12, color: isEditingProfile ? '#EF4444' : '#6200EE', fontWeight: 'bold' }}>
+            {isEditingProfile ? '🚫 Cancel' : '✏️ Edit'}
+          </Text>
+        </TouchableOpacity>
+      </View>
+
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <View style={styles.card}>
-          <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 }}>
-            <Text style={styles.title}>{t('settings')}</Text>
-            <TouchableOpacity 
-              style={{ flexDirection: 'row', alignItems: 'center', backgroundColor: isEditingProfile ? '#FEE2E2' : '#EEF2FF', paddingHorizontal: 12, paddingVertical: 6, borderRadius: 10 }}
-              onPress={() => setIsEditingProfile(!isEditingProfile)}
-            >
-              <Text style={{ fontSize: 12, color: isEditingProfile ? '#EF4444' : '#6200EE', fontWeight: 'bold' }}>
-                {isEditingProfile ? '🚫 Cancel Edit' : '✏️ Edit Settings'}
-              </Text>
-            </TouchableOpacity>
-          </View>
-          <Text style={styles.subtitle}>Configure tracking rules, school modes, security settings, and language flags.</Text>
 
           {/* Language Selection Bar */}
           <Text style={styles.sectionHeader}>{t('languageToggle')}</Text>
@@ -780,11 +790,37 @@ export default function SettingsScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F3F4F6',
-    paddingTop: Platform.OS === 'android' ? (StatusBar.currentHeight || 28) : 0,
+    backgroundColor: '#FFFFFF',
+  },
+  header: {
+    width: '100%',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    backgroundColor: '#FFFFFF',
+    borderBottomWidth: 1,
+    borderBottomColor: '#E2E8F0',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.04,
+    shadowRadius: 4,
+    elevation: 2,
+  },
+  headerTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#1F2937',
+  },
+  headerSubtitle: {
+    fontSize: 11.5,
+    color: '#6B7280',
+    marginTop: 1,
   },
   scrollContent: {
     padding: 16,
+    backgroundColor: '#F8FAFC',
   },
   card: {
     backgroundColor: '#FFFFFF',

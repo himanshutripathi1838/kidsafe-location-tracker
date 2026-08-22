@@ -1,7 +1,7 @@
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const API_URL = 'http://10.152.202.60:5000/api'; // Local Laptop Server IP
+const API_URL = 'http://10.245.222.60:5000/api'; // Local Laptop Server IP
 
 const apiClient = axios.create({
   baseURL: API_URL,
@@ -66,22 +66,9 @@ const handleMockFallback = (config) => {
     };
   }
 
+  // Live location must ALWAYS come directly from real backend MQTT telemetry
   if (url.includes('/location/live/')) {
-    return {
-      data: {
-        success: true,
-        location: {
-          latitude: 28.6253,
-          longitude: 77.2155,
-          speed: 5,
-          battery: 88,
-          network: '4G',
-          timestamp: new Date().toISOString(),
-          deviceStatus: 'online',
-          status: 'Live'
-        }
-      }
-    };
+    return Promise.reject(new Error('Backend offline - waiting for real MQTT stream'));
   }
 
   if (url.includes('/geofence/list/')) {
